@@ -1,0 +1,46 @@
+
+
+block {% block %} / {% endblock %}
+
+{% block $BLOCK$ %}
+$END$
+{% endblock $BLOCK$%}
+
+==============================
+
+for {% for %} / {% endfor %}
+
+{% for $VAR$ in $COLLECTION$ %}
+$END$
+{% endfor %}
+
+$VAR$ "obj"
+$COLLECTION$ "object_list"
+
+============================
+
+if {% if %} / {% endif %}
+
+{% if $VAR$ %}
+$END$
+{% elif %}$END$
+{% else %}$END$
+{% endif %}
+
+============================
+
+csrf {% csrf_token %}
+
+{% csrf_token %}$END
+
+==============================
+q {{ }}
+{{ $VAR$ }} $END$
+
+==============================
+
+qw {%  %}
+{% $VAR$ %} $END$
+
+
+
