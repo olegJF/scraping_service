@@ -31,7 +31,7 @@ $END$
 
 csrf {% csrf_token %}
 
-{% csrf_token %}$END
+{% csrf_token %}$END$
 
 ==============================
 q {{ }}
