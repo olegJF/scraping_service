@@ -14,11 +14,18 @@
 
           </div>
         </div>
-
+    {% empty %}
+        <h3 class="my-4 text-center">К сожалению, по Вашему запросу, ничего не найдено.</h3>
     {% endfor %}
+<div class="row ">
+    <div class="col-md-6 mx-auto">
+    <form method="GET" action="">
+        <div class="form-group">
+        {{ form.as_p }}
+        </div>
+        <button type="submit" class="btn btn-primary">Найти</button>
+    </form>
+    </div>
+</div>
 
-<form method="GET" action="">
- {{form.as_p }}
-  <input type="submit" value="Submit">
-</form>
 {% endblock %}
