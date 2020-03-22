@@ -7,7 +7,7 @@
         <div class="card my-3">
           <h5 class="card-header"><a href="{{ obj.url }}">{{ obj.title }}</a></h5>
           <div class="card-body">
-
+            <h4>{{ obj.company }}</h4>
             <p class="card-text">{{ obj.description }}</p>
               <p>{{obj.city.name }} | {{obj.language.name }} |
                   <small>{{obj.timestamp|date:"d-m-Y" }}</small></p>
