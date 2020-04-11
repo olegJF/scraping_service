@@ -60,6 +60,7 @@ class Vacancy(models.Model):
     class Meta:
         verbose_name = 'Вакансия'
         verbose_name_plural = 'Вакансии'
+        ordering = ['-timestamp']
 
     def __str__(self):
         return self.title
@@ -76,6 +77,6 @@ class Url(models.Model):
     language = models.ForeignKey('Language', on_delete=models.CASCADE,
                                  verbose_name='Язык программирования')
     url_data = jsonfield.JSONField(default=default_urls)
-    
+
     class Meta:
         unique_together = ("city", "language")

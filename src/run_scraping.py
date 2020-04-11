@@ -17,10 +17,10 @@ from scraping.models import Vacancy, City, Language, Error, Url
 User = get_user_model()
 
 parsers = (
-    (work, 'https://www.work.ua/ru/jobs-kyiv-python/'),
-    (dou, 'https://jobs.dou.ua/vacancies/?city=%D0%9A%D0%B8%D0%B5%D0%B2&category=Python'),
-    (djinni, 'https://djinni.co/jobs/?location=%D0%9A%D0%B8%D0%B5%D0%B2&primary_keyword=Python'),
-    (rabota, 'https://rabota.ua/zapros/python/%d0%ba%d0%b8%d0%b5%d0%b2')
+    (work, 'work'),
+    (dou, 'dou'),
+    (djinni, 'djinni'),
+    (rabota, 'rabota')
 )
 
 
@@ -42,20 +42,23 @@ def get_urls(_settings):
         urls.append(tmp)
     return urls
 
-q = get_settings()
-u = get_urls(q)
+settings = get_settings()
+url_list = get_urls(settings)
 
-city = City.objects.filter(slug='kiev').first()
-language = Language.objects.filter(slug='python').first()
+# city = City.objects.filter(slug='kiev').first()
+# language = Language.objects.filter(slug='python').first()
 
 jobs, errors = [], []
-for func, url in parsers:
-    j, e = func(url)
-    jobs += j
-    errors += e
+for data in url_list:
+
+    for func, key in parsers:
+        url = data['url_data'][key]
+        j, e = func(url, city=data['city'], language=data['language'])
+        jobs += j
+        errors += e
 
 for job in jobs:
-    v = Vacancy(**job, city=city, language=language)
+    v = Vacancy(**job)
     try:
         v.save()
     except DatabaseError:
