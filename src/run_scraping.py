@@ -1,3 +1,4 @@
+import asyncio
 import codecs
 import os, sys
 
@@ -12,7 +13,7 @@ import django
 django.setup()
 
 from scraping.parsers import *
-from scraping.models import Vacancy, City, Language, Error, Url
+from scraping.models import Vacancy, Error, Url
 
 User = get_user_model()
 
@@ -22,6 +23,7 @@ parsers = (
     (djinni, 'djinni'),
     (rabota, 'rabota')
 )
+jobs, errors = [], []
 
 
 def get_settings():
@@ -42,20 +44,32 @@ def get_urls(_settings):
         urls.append(tmp)
     return urls
 
+
+async def main(value):
+    func, url, city, language = value
+    job, err = await loop.run_in_executor(None, func, url, city, language)
+    errors.extend(err)
+    jobs.extend(job)
+
 settings = get_settings()
 url_list = get_urls(settings)
 
-# city = City.objects.filter(slug='kiev').first()
-# language = Language.objects.filter(slug='python').first()
+loop = asyncio.get_event_loop()
+tmp_tasks = [(func, data['url_data'][key], data['city'], data['language'])
+             for data in url_list
+             for func, key in parsers]
+tasks = asyncio.wait([loop.create_task(main(f)) for f in tmp_tasks])
 
-jobs, errors = [], []
-for data in url_list:
+# for data in url_list:
+#
+#     for func, key in parsers:
+#         url = data['url_data'][key]
+#         j, e = func(url, city=data['city'], language=data['language'])
+#         jobs += j
+#         errors += e
 
-    for func, key in parsers:
-        url = data['url_data'][key]
-        j, e = func(url, city=data['city'], language=data['language'])
-        jobs += j
-        errors += e
+loop.run_until_complete(tasks)
+loop.close()
 
 for job in jobs:
     v = Vacancy(**job)
