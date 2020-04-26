@@ -19,4 +19,18 @@
     </div>
 </div>
 
+<div class="row my-5">
+    <div class="col-md-8 mx-auto">
+        <p class="my-2">Если Вы не нашли подходящий набор Город, Специальность,
+            Вы можете заполнить форму ниже  с Вашими пожеланиями. После того,
+            как необходимые данные будут добавлены, Вы получите письмо на указанный Вам и-мэйл.</p>
+    <form method="POST" action="{% url 'accounts:contact' %} ">{% csrf_token %}
+        <div class="form-group">
+        {{ contact_form.as_p }}
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+    </form>
+
+    </div>
+</div>
 {% endblock %}
