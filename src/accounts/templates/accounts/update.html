@@ -6,7 +6,7 @@
 
 <div class="row ">
     <div class="col-md-8 mx-auto">
-        <h4 class="my-2">Настроки</h4>
+        <h4 class="my-2">Настройки</h4>
     <form method="POST" action="">{% csrf_token %}
         <div class="form-group">
         {{ form.as_p }}
@@ -24,12 +24,25 @@
         <p class="my-2">Если Вы не нашли подходящий набор Город, Специальность,
             Вы можете заполнить форму ниже  с Вашими пожеланиями. После того,
             как необходимые данные будут добавлены, Вы получите письмо на указанный Вам и-мэйл.</p>
-    <form method="POST" action="{% url 'accounts:contact' %} ">{% csrf_token %}
-        <div class="form-group">
-        {{ contact_form.as_p }}
+        <p>
+          <button class="btn btn-success"
+                  type="button" data-toggle="collapse"
+                  data-target="#collapsed" aria-expanded="false"
+                  aria-controls="collapseExample">
+            Показать форму
+          </button>
+        </p>
+        <div class="collapse" id="collapsed">
+          <div class="card card-body">
+              <form method="POST" action="{% url 'accounts:contact' %} ">{% csrf_token %}
+                <div class="form-group">
+                {{ contact_form.as_p }}
+                </div>
+                <button type="submit" class="btn btn-primary">Отправить</button>
+              </form>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Отправить</button>
-    </form>
+
 
     </div>
 </div>
