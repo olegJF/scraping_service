@@ -1,0 +1,3728 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "scraping",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "scraping",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "scraping",
+    "model": "vacancy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accounts",
+    "model": "myuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "scraping",
+    "model": "error"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "scraping",
+    "model": "url"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0peysumzwe1tb0lfs1fkl87gdh9fougx",
+  "fields": {
+    "session_data": "YjAzZDRlOTNlOTVkMjQwNmUwOGViZmUwOWY4ZDNhZTc3ZmYxOGY1Zjp7Il9hdXRoX3VzZXJfaWQiOiI2IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4MzllMzMzMmViNWU3YWZkNTlmYTA1MDliOTNmZGUyMzFiMWU0NjNkIn0=",
+    "expire_date": "2020-05-16T08:19:55.411Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1t0td9k5w3pa1tz22t1x4axu3ba2l4wf",
+  "fields": {
+    "session_data": "OTk0NmUwNzgwMmZjNDM0ZTZkYjZhMGZkNmJmNWY5YTZkMGU1NTgwODp7Il9hdXRoX3VzZXJfaWQiOiI0IiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2ZTFlNTAwYjY1ZjA5OTk4MzcwMWIyYTVlMGUyNzQ5ZTE1NDYwMGJlIn0=",
+    "expire_date": "2020-04-26T10:04:34.709Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c5j42bq052lo67jw4ygefoesbz7ej9zk",
+  "fields": {
+    "session_data": "ZWZhOTIwMDQ0ZDc3NzYxOWU1ZWJkNmQzOTUwYzQ3ZmIyMDY1MzdkMDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmMGQ3ZTNiOTAwNmNkN2Y1YmIzZDIxMWFhOTI3ZjgyMTM5N2FhZjcxIn0=",
+    "expire_date": "2020-04-19T09:26:20.368Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "msacsz9x4jj9fyuoq9f50ycc781ic9b5",
+  "fields": {
+    "session_data": "ZWZhOTIwMDQ0ZDc3NzYxOWU1ZWJkNmQzOTUwYzQ3ZmIyMDY1MzdkMDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmMGQ3ZTNiOTAwNmNkN2Y1YmIzZDIxMWFhOTI3ZjgyMTM5N2FhZjcxIn0=",
+    "expire_date": "2020-04-05T10:12:02.663Z"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 1,
+  "fields": {
+    "name": "\u041a\u0438\u0435\u0432",
+    "slug": "kiev"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 3,
+  "fields": {
+    "name": "\u041e\u0434\u0435\u0441\u0441\u0430",
+    "slug": "odessa"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 1,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 2,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 1,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3845624/",
+    "title": "Fullstack Python Developer",
+    "company": "\u0415\u0432\u0440\u043e-\u0410\u0437\u0438\u0430\u0442\u0441\u043a\u0430\u044f \u0441\u043b\u0443\u0436\u0431\u0430 \u0441\u0442\u0438\u043c\u0443\u043b\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f \u0441\u0431\u044b\u0442\u0430, \u041e\u041e\u041e",
+    "description": "\u0422\u044b \u043f\u044b\u0442\u0430\u0435\u0448\u044c\u0441\u044f \u0430\u0432\u0442\u043e\u043c\u0430\u0442\u0438\u0437\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u043a\u0430\u0436\u0434\u044b\u0439 \u043f\u0440\u043e\u0446\u0435\u0441\u0441, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0435\u0448\u044c? \u0422\u044b \u0441\u0447\u0438\u0442\u0430\u0435\u0448\u044c, \u0447\u0442\u043e \u0438\u0437 \u043b\u044e\u0431\u043e\u0439 \u043f\u043b\u043e\u0445\u043e \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043c\u043e\u0436\u043d\u043e \u0434\u043e\u0431\u044b\u0442\u044c \u0437\u043d\u0430\u043d\u0438\u044f? \u0422\u044b \u0445\u043e\u0447\u0435\u0448\u044c \u0431\u044b\u0442\u044c \u0432 \u043d\u0430\u0447\u0430\u043b\u0435 \u043f\u0443\u0442\u0438 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f ML-\u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0441 \u0442\u0432\u043e\u0435\u0439 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043f\u043e\u0440\u0432\u0435\u0442 \u0440\u044b\u043d\u043e\u043a?\r\n\r\n\u0415\u0441\u043b\u0438 \u043e\u0442\u0432\u0435\u0442 \u043d\u0430 \u0432\u0441\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b \u00ab\u0414\u0430!\u00bb, \u0442\u043e\u0433\u0434\u0430 \u043c\u043e\u0436\u0435\u0448\u044c \u0431\u043e\u043b\u044c\u0448\u0435 \u043d\u0435 \u0436\u0434\u0430\u0442\u044c.\r\n\r\n\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u00ab\u0415\u0432\u0440\u0430\u0437\u0438\u044f\u00bb \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043e\u0434\u043d\u0438\u043c \u0438\u0437 \u043b\u0438\u0434\u0435\u0440\u043e\u0432 \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u0435\u043d\u0438\u044f HR-\u0443\u0441\u043b\u0443\u0433. \u041c\u044b \u0445\u043e\u0440\u043e\u0448\u043e \u0437\u043d\u0430\u0435\u043c \u0440\u044b\u043d\u043e\u043a \u0438 \u0435\u0433\u043e \u043f\u043e\u0442\u0440\u0435\u0431\u043d\u043e\u0441\u0442\u0438. \u041f\u0440\u0438\u0448\u043b\u043e \u0432\u0440\u0435\u043c\u044f \u043d\u0430\u0448\u0438 \u0437\u043d\u0430\u043d\u0438\u044f \u043a\u043e\u043d\u0432\u0435\u0440\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0439 \u043f\u0440\u043e\u0434\u0443\u043a\u0442. \u0414\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u043c\u044b \u0441\u043e\u0437\u0434\u0430\u0435\u043c \u043d\u043e\u0432\u043e\u0435 \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u043f\u043e \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435 Data science \u0440\u0435\u0448\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u043d\u0430\u0448\u0438\u0445 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0438\u0445 \u043f\u043e\u0442\u0440\u0435\u0431\u043d\u043e\u0441\u0442\u0435\u0439, \u0441 \u043f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u043e\u0439 \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0445 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432. \u041d\u0430\u0448\u0438 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b \u0434\u043e\u043b\u0436\u043d\u044b \u0431\u044b\u0442\u044c \u043b\u0443\u0447\u0448\u0438\u043c\u0438 \u043d\u0430 \u0440\u044b\u043d\u043a\u0435, \u0430 \u043a\u043e\u0434 \u2014 \u043d\u0435 \u0441\u0442\u044b\u0434\u043d\u043e \u0434\u0435\u043c\u043e\u043d\u0441\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0441\u043e \u0441\u0446\u0435\u043d\u044b. \u0418 \u044d\u0442\u043e, \u043a\u043e\u043d\u0435\u0447\u043d\u043e, \u0442\u0440\u0435\u0431\u0443\u0435\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0431\u0443\u0434\u0435\u0442 \u0438\u043c\u0435\u0442\u044c \u0442\u0435 \u0436\u0435 \u0446\u0435\u043b\u0438 \u0438 \u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0447\u0442\u043e \u0438 \u043c\u044b.\r\n\r\n\u041c\u044b \u043d\u0430\u0447\u0438\u043d\u0430\u0435\u043c \u0441 \u043c\u0430\u043b\u0435\u043d\u044c\u043a\u043e\u0439 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u0438 \u043f\u043b\u0430\u043d\u0438\u0440\u0443\u0435\u043c \u0440\u0430\u0441\u0442\u0438 \u2014 \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u0442\u043e\u0431\u043e\u0439!",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-09"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 2,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3854583/",
+    "title": "Middle Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a",
+    "company": "4bill.io",
+    "description": "\u041e\u043f\u044b\u0442 \u043e\u0442 2\u043b\u0435\u0442\r\n\u0423\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0435 \u0437\u043d\u0430\u043d\u0438\u0435 Python3 \u0438 \u0435\u0433\u043e \u043ec\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0435\u0439\r\n\u0417\u043d\u0430\u043d\u0438\u0435 \u0438 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u043e\u0432 \u041e\u041e\u041f. \u0423\u0432\u0435\u0440\u0435\u043d\u043d\u043e\u0435 \u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u0435 HTTP \u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b\u0430.\r\n\u0412\u043b\u0430\u0434\u0435\u043d\u0438\u0435 \u043d\u0430\u0432\u044b\u043a\u0430\u043c\u0438 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 python \u0444\u0440\u0435\u0439\u043c\u0432\u043e\u0440\u043a\u0430\u043c\u0438: Flask, Tornado\r\n\u041f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u043e\u0432 REST.\r\n\u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 Django \u0438 Django rest framework.\r\n\u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0411\u0414 (\u0431\u0443\u0434\u0435\u0442 \u043f\u043b\u044e\u0441\u043e\u043c PostgreSQL).\r\n\u0417\u043d\u0430\u043d\u0438\u0435 \u043e\u0441\u043d\u043e\u0432 SQL.\r\n\u0417\u043d\u0430\u043d\u0438\u0435 \u0444\u043e\u0440\u043c\u0430\u0442\u043e\u0432 JSON, XML. \u0411\u0443\u0434\u0435\u0442 \u043f\u043b\u044e\u0441\u043e\u043c \u0437\u043d\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0442\u043e\u043a\u043e\u043b\u0430 JSON-RPC.\r\n\u041f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043f\u0440\u0438\u043d\u0446\u0438\u043f\u043e\u0432 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043d\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u044b.",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-15"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 3,
+  "fields": {
+    "url": "https://rabota.ua/company1902638/vacancy7901642",
+    "title": "Middle Java Developer",
+    "company": "RGC",
+    "description": "2 + \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0439 \u043e\u043f\u044b\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 Web-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u044b Java.\r\nJava Core, Spring (\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c, MVC), Hibernate, Servlets, REST.\r\n\u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 \u0431\u0430\u0437\u0430\u043c\u0438 \u0434\u0430\u043d\u043d\u044b\u0445.\r\nMaven, Gradle, Git, SVN.\r\n\u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u0441 CI/CD, Docker.",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2020-03-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 4,
+  "fields": {
+    "url": "https://rabota.ua/company2580878/vacancy7701997",
+    "title": "Java developer \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e",
+    "company": "\u0421\u041e\u0424\u0422-\u041c\u042d\u0419\u041a, \u0427\u041f",
+    "description": "\u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f: \u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a Java. \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0439 \u0441\u0442\u0435\u043a \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439: spring-boot, hibernate, mysql. \u0420\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u043a\u043e\u043c\u043c\u0435\u0440\u0447\u0435\u0441\u043a\u0438\u0445 \u043f\u0440\u043e\u0435\u043a\u0442\u043e\u0432 \u0432 \u0441\u043e\u0441\u0442\u0430\u0432\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b. \u041d\u0430\u043b\u0438\u0447\u0438\u0435 \u0424\u041b\u041f\r\n\r\n\u041e\u0431\u044f\u0437\u0430\u043d\u043d\u043e\u0441\u0442\u0438: \u0423\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430 \u0441 \u0447\u0430\u0441\u0442\u0438\u0447\u043d\u043e\u0439 \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c\u044e. ~3 \u0447\u0430\u0441\u0430 \u0432 \u0434\u0435\u043d\u044c\r\n\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0440\u0430\u0431\u043e\u0442\u044b: \u0423\u0434\u0430\u043b\u0435\u043d\u043d\u043e. \u0427\u0430\u0441\u0442\u0438\u0447\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u043b\u0430\u0442\u0430 \u043e\u0442 8 USD/hr, \u043f\u043e \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0430\u043c \u0441\u043e\u0431\u0435\u0441\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f.",
+    "city": 3,
+    "language": 2,
+    "timestamp": "2020-03-21"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 5,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3854613/",
+    "title": "\nDeveloper in Test (Python)\n",
+    "company": "No name",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            \u041c\u0438, Ajax Systems, \u0441\u0442\u0432\u043e\u0440\u044e\u0454\u043c\u043e \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0431\u0435\u0437\u043f\u0435\u043a\u0438 \u0456 \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 smart home. \u0425\u043e\u0447\u0435\u043c\u043e, \u0449\u043e\u0431 \u043a\u043e\u0436\u0435\u043d \u0431\u0443\u0434\u0438\u043d\u043e\u043a \u0441\u0442\u0430\u0432 \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u043c\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 6,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3854943/",
+    "title": "\nSenior Full-Stack Python Engineer\n",
+    "company": "Moneyveo",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            About the product: Moneyveo is\u00a0a\u00a0fast growing product company. Our primary product is\u00a0an\u00a0online credit\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 7,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3678733/",
+    "title": "\nMiddle Python developer\n",
+    "company": "\u0410\u043b\u044c\u0444\u0430-\u0411\u0430\u043d\u043a",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            \u0420\u043e\u0431\u043e\u0442\u0438 \u0431\u0443\u0432\u0430\u044e\u0442\u044c \u0440\u0456\u0437\u043d\u0438\u043c\u0438: \u043f\u0435\u0440\u0448\u0430, \u0432\u0435\u0441\u0435\u043b\u0430, \u043d\u0443\u0434\u043d\u0430, \u0432\u0430\u0436\u043a\u0430. \u0410\u043b\u0435 \u043d\u0430\u0448\u0430 \u0440\u043e\u0431\u043e\u0442\u0430 \u0456\u043d\u0448\u0430! \u0426\u0435\u00a0\u043d\u0430\u0439\u0432\u0430\u0436\u043b\u0438\u0432\u0456\u0448\u0430 \u0440\u043e\u0431\u043e\u0442\u0430, \u0442\u043e\u043c\u0443\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 8,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3853169/",
+    "title": "\nSenior Python/GoLang Developer\n",
+    "company": "Animo",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            RetargetApp\u00a0\u2014 \u043c\u043e\u043b\u043e\u0434\u0430\u044f, \u043d\u043e\u00a0\u043f\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0438\u0432\u043d\u0430\u044f \u0438\u00a0\u0432\u0435\u0441\u0435\u043b\u0430\u044f \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u0438\u0437\u00a0\u041a\u0438\u0435\u0432\u0430, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u0442 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 9,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3836405/",
+    "title": "\nPython/django developer\n",
+    "company": "No name",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u043d\u0435\u043f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            We\u00a0are looking to\u00a0hire one or\u00a0two python developers to\u00a0join our development team. Our team is\u00a0based in\u00a0Denmark,\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 10,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3851817/",
+    "title": "\nJunior Python Developer\n",
+    "company": "Bintime",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c.\n                            ABOUT US BINTIME is\u00a0an\u00a0IT software development company founded in\u00a02005. During last years about 100 experts\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 11,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3805928/",
+    "title": "\nMiddle Python Developer\n",
+    "company": "Garant Service",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430.\n                            \u0412\u00a0\u043a\u043e\u043c\u0430\u043d\u0434\u0443, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0432\u00a0\u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0438 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430 \u0441\u00a0\u0432\u043d\u0435\u0448\u043d\u0438\u043c\u0438 \u043f\u043e\u0434\u0440\u044f\u0434\u0447\u0438\u043a\u0430\u043c\u0438, \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f Middle\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 12,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3853838/",
+    "title": "\n\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u0456\u0441\u0442 Python/MySQL\n",
+    "company": "No name",
+    "description": "\n            \u041d\u0435\u043f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430. \u041d\u0435\u043e\u043a\u043e\u043d\u0447\u0435\u043d\u043d\u043e\u0435 \u0432\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            \u041d\u0435\u0441\u043a\u043b\u0430\u0434\u043d\u0443 \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u0443 \u0430\u043f\u043b\u0456\u043a\u0430\u0446\u0456\u044e \u043d\u0430\u00a0Python/Flask/Ubuntu, \u043f\u0440\u0430\u0446\u044e\u044e\u0447\u0443 \u043d\u0430\u00a0\u0444\u0430\u0439\u043b\u0430\u0445, \u043f\u043e\u0442\u0440\u0456\u0431\u043d\u043e \u043f\u0435\u0440\u0435\u0432\u0435\u0441\u0442\u0438 \u043d\u0430\u00a0\u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 13,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3859842/",
+    "title": "\nMiddle/Senior Python Engineer\n",
+    "company": "PlasticJam",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f PlasticJam \u0438\u0449\u0435\u0442 \u0432\u00a0\u0441\u0432\u043e\u044e \u043a\u043e\u043c\u0430\u043d\u0434\u0443 Middle/Senior Python Engineer. \u041a\u0430\u043d\u0434\u0438\u0434\u0430\u0442\u0443 \u043f\u0440\u0435\u0434\u0441\u0442\u043e\u0438\u0442 \u0440\u0435\u0448\u0430\u0442\u044c \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 14,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3843844/",
+    "title": "\nFull-Stack Python Engineer\n",
+    "company": "Moneyveo",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0441 \u0438\u043d\u0432\u0430\u043b\u0438\u0434\u043d\u043e\u0441\u0442\u044c\u044e. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            About the product: Moneyveo is\u00a0a\u00a0fast growing product company. Our primary product is\u00a0an\u00a0online credit\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 15,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3859508/",
+    "title": "\n\u041f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 Python\n",
+    "company": "Hicell",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0441 \u0438\u043d\u0432\u0430\u043b\u0438\u0434\u043d\u043e\u0441\u0442\u044c\u044e. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            Hicell Telecommunications\u00a0\u2014 \u043c\u043e\u043b\u043e\u0434\u0430\u044f \u0438\u00a0\u0443\u0441\u043f\u0435\u0448\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0432\u00a0\u0441\u0444\u0435\u0440\u0435 \u0442\u0435\u043b\u0435\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u043e\u043d\u043d\u044b\u0445 \u0443\u0441\u043b\u0443\u0433. \u041c\u044b\u00a0\u0432\u0435\u0434\u0435\u043c\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 16,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3859352/",
+    "title": "\nMachine Learning, Python Engineer (Mobile games)\n",
+    "company": "No name",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u043d\u0435\u043f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            \u041c\u0438\u00a0\u2014 digital \u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u0456\u044f \u0437\u00a0\u0440\u043e\u0437\u0440\u043e\u0431\u043a\u0438 \u043c\u043e\u0431\u0456\u043b\u044c\u043d\u0438\u0445 \u0456\u0433\u043e\u0440 \u0456 \u0448\u0443\u043a\u0430\u0454\u043c\u043e \u043b\u044e\u0434\u0435\u0439, \u044f\u043a\u0456 \u043b\u044e\u0431\u043b\u044f\u0442\u044c \u0433\u0440\u0430\u0442\u0438 \u0432\u00a0\u043c\u043e\u0431\u0456\u043b\u044c\u043d\u0456 \u0456\u0433\u0440\u0438\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 17,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3842390/",
+    "title": "\nSenior Python Developer (Financial Software Solutions)\n",
+    "company": "DataArt",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            Our client is\u00a0a\u00a0New York City-based FinTech startup that is\u00a0building a\u00a0trading and risk software platform\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 18,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/evo/vacancies/114126/?from=list_hot",
+    "title": "\nSenior Back End Software Engineer (Python/Go/Node.js) \u043f\u0440\u043e\u0435\u043a\u0442 Prom.ua\u00a0\u0432\u00a0\u00a0EVO\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0EVO",
+    "description": "\n\t\t\t\t\tProm.ua\u00a0\u2014 \u043f\u0440\u043e\u0432\u0456\u0434\u043d\u0438\u0439 \u0442\u043e\u0440\u0433\u043e\u0432\u0438\u0439 \u043c\u0430\u0439\u0434\u0430\u043d\u0447\u0438\u043a \u0432\u00a0\u0423\u043a\u0440\u0430\u0457\u043d\u0456, \u0431\u0456\u043b\u044c\u0448\u0435 50\u00a0000 \u043f\u0440\u043e\u0434\u0430\u0432\u0446\u0456\u0432 \u0456\u00a0120\u00a0000\u00a0000\u00a0\u043f\u0440\u043e\u043f\u043e\u0437\u0438\u0446\u0456\u0439, \u043a\u043e\u0436\u043d\u0430 5-\u0430 \u0433\u0440\u0438\u0432\u043d\u044f \u0432\u00a0\u0443\u0430\u043d\u0435\u0442\u0456 \u0432\u0438\u0442\u0440\u0430\u0447\u0430\u0454\u0442\u044c\u0441\u044f \u043d\u0430\u00a0prom.ua.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 19,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/lets-enhance/vacancies/116329/?from=list_hot",
+    "title": "\nSoftware Engineer (backend)\u00a0\u0432\u00a0\u00a0Let's Enhance\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Let's Enhance",
+    "description": "\n\t\t\t\t\tLet\u2019s Enhance makes images great again using latest advancements in\u00a0Deep Learning and Computer Vision. We\u00a0have ~2M users registered on\u00a0our platform, dozens of\u00a0companies using our API and we\u00a0process millions of\u00a0images each month from companies around the globe.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 20,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/lynx-capital-partners/vacancies/112197/",
+    "title": "\nDeveloper C++/Java/Python\u00a0\u0432\u00a0\u00a0Lynx Capital Partners\n$4000\u20136000\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Lynx Capital Partners",
+    "description": "\n\t\t\t\t\tLynx Capital \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043b\u0438\u0434\u0435\u0440\u043e\u043c \u0440\u044b\u043d\u043a\u0430 \u0438\u043d\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043d\u044b\u0445 \u0440\u0435\u0448\u0435\u043d\u0438\u0439 \u0434\u043b\u044f \u0434\u043e\u0441\u0442\u0443\u043f\u0430 \u043a\u00a0\u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0438\u043c \u0440\u044b\u043d\u043a\u0430\u043c \u0430\u043a\u0446\u0438\u0439. (\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0430\u044f, \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u0441\u00a02001\u0433\u043e\u0434\u0430, \u0435\u0441\u0442\u044c \u043e\u0444\u0438\u0441 \u0432\u00a0\u041a\u0438\u0435\u0432\u0435.)\n\n\u0418\u0449\u0435\u043c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0439:\n\u2014\u00a0\u0418\u043c\u0435\u0435\u0442 \u0438\u043d\u0436\u0435\u043d\u0435\u0440\u043d\u044b\u0439 \u043f\u043e\u0434\u0445\u043e\u0434 \u043a\u00a0\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0435.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 21,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/timecode-llc/vacancies/96921/",
+    "title": "\nSenior Software Engineer (Automation)\u00a0\u0432\u00a0\u00a0Timecode LLC\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Timecode LLC",
+    "description": "\n\t\t\t\t\tAbout Project:\nIt\u2019s a\u00a0global 3D\u00a0avatar-based social community of\u00a0users who come together to\u00a0play, interact, and make friends.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 22,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ubisoft/vacancies/103157/",
+    "title": "\nFull Stack Software Engineer\u00a0| Ketchapp\u00a0\u0432\u00a0\u00a0Ubisoft\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Ubisoft",
+    "description": "\n\t\t\t\t\tThe tools will be\u00a0various and will allow the whole team to\u00a0take advantage of\u00a0the technology to\u00a0bring more value and save a\u00a0lot of\u00a0time to\u00a0work on\u00a0more creative tasks.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 23,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/fondy/vacancies/70980/",
+    "title": "\nPython Developer\u00a0\u0432\u00a0\u00a0FONDY \u2014 Unified Payment Platform\n$2500\u20133000\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0FONDY \u2014 Unified Payment Platform",
+    "description": "\n\t\t\t\t\t\u041f\u0440\u043e\u0435\u043a\u0442 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 backend (\u0431\u0438\u043b\u0438\u043d\u0433) \u0438\u00a0frontend (Web UI/API), \u0438\u043d\u0442\u0435\u0433\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0441\u00a0\u0443\u0436\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u043c\u0438 \u043c\u043e\u0434\u0443\u043b\u044f\u043c\u0438 \u0438\u00a0\u0441\u0438\u0441\u0442\u0435\u043c\u0430\u043c\u0438\u00a0\u2014 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441, \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u043d\u0430\u00a0\u0423\u043a\u0440\u0430\u0438\u043d\u0443 \u0438\u00a0\u0415\u0432\u0440\u043e\u043f\u0443\n\u041f\u0440\u0438\u043c\u0435\u0440 \u0442\u043e\u0433\u043e, \u0447\u0442\u043e \u043c\u044b\u00a0\u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u043c \u043c\u043e\u0436\u043d\u043e \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0442\u0443\u0442: \nhttps://portal.fondy.eu/mportal/#/...\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 24,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/orderry/vacancies/118743/",
+    "title": "\nTeam/Tech Lead (Python)\u00a0\u0432\u00a0\u00a0Orderry\n$4500\u20136000\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Orderry",
+    "description": "\n\t\t\t\t\tOrderry is\u00a0a\u00a0product Ukrainian IT\u00a0company that strives for leadership in\u00a0the market of\u00a0SaaS for the service sector. We\u00a0create cloud software for automating the companies business processes. More than 4000 companies around the world use our product.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 25,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/preply/vacancies/118732/",
+    "title": "\nFull-Stack Developer (Space team)\u00a0\u0432\u00a0\u00a0Preply\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Preply",
+    "description": "\n\t\t\t\t\tPreply is\u00a0a\u00a0fast-growing ed-tech company, backed by\u00a0Europe\u2019s most prominent investors. Since 2012\u00a0we are building a\u00a0global human-to-human online tutoring marketplace with locations in\u00a0Kyiv and Barcelona.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 26,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/preply/vacancies/114188/",
+    "title": "\nPython Developer (Platform)\u00a0\u0432\u00a0\u00a0Preply\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Preply",
+    "description": "\n\t\t\t\t\tPreply is\u00a0a\u00a0fast-growing ed-tech company, backed by\u00a0Europe\u2019s most prominent investors. Since 2012\u00a0we are building a\u00a0global human-to-human online tutoring marketplace with locations in\u00a0Kyiv and Barcelona.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 27,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/luxoft/vacancies/113574/",
+    "title": "\nQuality Assurance Engineer (Selenium+Python)\u00a0\u0432\u00a0\u00a0Luxoft\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Luxoft",
+    "description": "\n\t\t\t\t\tYou will join Data Architecture/Engineering group. We\u00a0are responsible for company\u2019s data architecture and infrastructure, including data ingestion, processing and internal distribution, as\u00a0well as\u00a0analytical platforms.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 28,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/daxx-group/vacancies/118668/",
+    "title": "\nSDET (Python) for Exacloud\u00a0\u0432\u00a0\u00a0Daxx BV\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Daxx BV",
+    "description": "\n\t\t\t\t\tExacloud is\u00a0a\u00a0cloud version of\u00a0Exabeam. Exabeam is\u00a0the leader in\u00a0user and entity behavior analytics.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 29,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ncube/vacancies/118614/",
+    "title": "\nSenior Python Developer\u00a0\u0432\u00a0\u00a0NCube Ltd.\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0NCube Ltd.",
+    "description": "\n\t\t\t\t\tWe\u00a0are looking for Senior Python Developer to\u00a0participate in\u00a0pre-clinical cancer research project of\u00a0the global, science-led biopharmaceutical company \n\nOur client provides innovative, effective medicines designed to\u00a0fight cancer, provide pain control, heal infection, and fight...\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 30,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/intellias/vacancies/118588/",
+    "title": "\nLead/Senior Python Engineer with AWS\u00a0\u0432\u00a0\u00a0Intellias\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Intellias",
+    "description": "\n\t\t\t\t\tOur customer is\u00a0one of\u00a0the most well-known brands in\u00a0the Automotive parts industry: an\u00a0international corporation with over a\u00a0hundred years of\u00a0history. We\u00a0are engaged with European based branch to\u00a0support their efforts in\u00a0Digital and eCommerce space.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 31,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/intellias/vacancies/118506/",
+    "title": "\nLead Python Developer\u00a0\u0432\u00a0\u00a0Intellias\n\u041a\u0438\u0435\u0432, \u041b\u044c\u0432\u043e\u0432\n",
+    "company": "\u00a0Intellias",
+    "description": "\n\t\t\t\t\tOur Client is\u00a0a\u00a0government-owned company operating under the Ministry of\u00a0Health and working as\u00a0a\u00a0key enabler of\u00a0E-Health innovation in\u00a0Saudi Arabia.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 32,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sportech/vacancies/116142/",
+    "title": "\nPython Developer\u00a0\u0432\u00a0\u00a0Sportech LLC\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Sportech LLC",
+    "description": "\n\t\t\t\t\tBachelor\u2019s Degree or\u00a0higher in\u00a0Computer Science, Math or\u00a0a\u00a0related field.\n2+\u00a0years working with Python programming language.\nKnowledge of\u00a0the common web standards and data formats (HTML, CSS, XPATH, JSON, etc.).\nFamiliar with the concepts behind modern web apps (REST, AJAX).\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 33,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/daxx-group/vacancies/118387/",
+    "title": "\nSenior Python Developer for Pelico\u00a0\u0432\u00a0\u00a0Daxx BV\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Daxx BV",
+    "description": "\n\t\t\t\t\tOur ambition is\u00a0to\u00a0bridge the operational gap between tech companies and traditional companies by\u00a0helping industrial players boost their performance with data.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 34,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/xenoss/vacancies/118373/",
+    "title": "\nAI/Machine Learning Engineer (Python)\u00a0\u0432\u00a0\u00a0Xenoss\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Xenoss",
+    "description": "\n\t\t\t\t\tThe solution helps big global brands to\u00a0automate creation of\u00a0marketing creatives with help of\u00a0AI/ML, configure advertising campaigns in\u00a0buying platforms (Google, Facebook and more), analyze performance data and discover insights, optimize performance, grow revenue &\u00a0increase...\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 35,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/grammarly/vacancies/107468/",
+    "title": "\nSoftware Engineer, Machine Learning\u00a0\u0432\u00a0\u00a0Grammarly\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Grammarly",
+    "description": "\n\t\t\t\t\tGrammarly empowers people to\u00a0thrive and connect, whenever and wherever they communicate. More than 20\u00a0million people around the world use our AI-powered writing assistant every day. All of\u00a0this begins with our team collaborating in\u00a0a\u00a0values-driven and learning-oriented environment.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 36,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/bitfury/vacancies/115657/",
+    "title": "\nSoftware Engineer (Node.js)\u00a0\u0432\u00a0\u00a0Bitfury\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Bitfury",
+    "description": "\n\t\t\t\t\tBitfury develops and delivers both the software and the hardware solutions necessary for businesses, governments, organizations, and individuals to\u00a0securely move an\u00a0asset across the Blockchain.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 37,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/health-joy/vacancies/118288/",
+    "title": "\nMiddle Back-End Engineer\u00a0\u0432\u00a0\u00a0HealthJoy\n\u043e\u0442\u00a0$3000\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0HealthJoy",
+    "description": "\n\t\t\t\t\tWhy our work matters\n\nThe healthcare industry is\u00a0notoriously difficult to\u00a0navigate. Nearly one third of\u00a0the $3\u00a0trillion spent on\u00a0healthcare annually results from this complexity.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 38,
+  "fields": {
+    "url": "https://djinni.co/jobs/109288-senior-python-developer-tmt-/",
+    "title": "\nSenior Python Developer (tmt)\n",
+    "company": "\nAlyona Malyshkina,\n      Senior IT Recruiter at Luxoft\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nWe are looking for a data engineer with experience in developing data pipelines and join our team working on a new transaction monitoring application used across multiple businesses.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 39,
+  "fields": {
+    "url": "https://djinni.co/jobs/109287-senior-python-developer/",
+    "title": "\nSenior Python Developer\n",
+    "company": "\nEvgeniya Potapova,\n      Senior Researcher at Luxoft\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nSenior Python Developer\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 40,
+  "fields": {
+    "url": "https://djinni.co/jobs/60682-middle-senior-python-developer/",
+    "title": "\nMiddle/Senior Python Developer\n",
+    "company": "\nIlia Mebonia,\n      Co-founder and CTO at ECHOES-AI\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nThe team is developing a next gen text analytics platform,  combining ML/DL/NLP and crowd sourcing insights.\r\nThis position will continue building on our existing architecture, using the latest technologies, and deliver the implementation of the final product.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 41,
+  "fields": {
+    "url": "https://djinni.co/jobs/109231-data-engineer-with-scraping-skills/",
+    "title": "\nData Engineer with Scraping skills\n",
+    "company": "\nInna Ostapenko,\n      Senior/Lead Recruiter at Rails Reactor\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nWe are looking for a Senior Data Engineer who will be a significant part of creating a data platform for a new product, especially for subsystems related to data scraping.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 42,
+  "fields": {
+    "url": "https://djinni.co/jobs/95237-senior-data-engineer-for-financially-stable-p/",
+    "title": "\nSenior Data Engineer for financially stable project\n",
+    "company": "\nInna Ostapenko,\n      Senior/Lead Recruiter at Rails Reactor\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        5 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n        \n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nWe are looking for a Data Engineer who will be a significant part of creating a data platform for a new product. \r\nThrasio is one of the fastest-growing acquirers of Amazon third-party FBA brands. Was established in 2018 with a clear mission: to become the largest, most profitable seller on Amazon.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 43,
+  "fields": {
+    "url": "https://djinni.co/jobs/109225-python-engineer-with-an-intention-to-switch-t/",
+    "title": "\nPython Engineer with an intention to switch to DevOps\n",
+    "company": "\nYevheniia Myhalchuk,\n      IT Recruiter at Newxel\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        1 \u0440\u0456\u043a \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nCrazy Labs is looking for an excellent Engineer to join the team and be responsible for the CI/CD and automation. You\u2019ll be a part of the ALM & DevOps Team and build systems and tools for Crazy Labs games, taking a technical lead part in our global R&D\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 44,
+  "fields": {
+    "url": "https://djinni.co/jobs/109170-data-integration-engineer-and-analyst-python-/",
+    "title": "\nData Integration Engineer and Analyst (Python)\n",
+    "company": "\nLiudmyla Zalevska,\n      HR Manager at Blockspoint\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Advanced/Fluent\n",
+    "description": "\nGrowing B2B AI Startup is looking for a Data Integration Engineer and Analyst with fluent English and excellent Python. Location - Kyiv, Ukraine. You can work remotely most of the time, only visiting the office once a week (or more often when needed).\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 45,
+  "fields": {
+    "url": "https://djinni.co/jobs/109106-junior-python-developer/",
+    "title": "\nJunior Python Developer\n",
+    "company": "\nKsenia Tretiak,\n      IT Recruiter at Bintime\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        \u0411\u0435\u0437 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 46,
+  "fields": {
+    "url": "https://djinni.co/jobs/109068-full-stack-web-developer-python-backend-/",
+    "title": "\nFull-Stack Web Developer (Python backend)\n",
+    "company": "\n\u041a\u0441\u0435\u043d\u0438\u044f \u0410\u043b\u0438\u043a\u0438\u043d\u0430,\n      IT Recruiter at VP Team\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nOur friends is a VC-backed startup creating a system that lets one voice sound like another, focused on very\r\nhigh-quality output and usability for demanding applications like TV and movies, call centers, and gaming.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 47,
+  "fields": {
+    "url": "https://djinni.co/jobs/109042-senior-python-developer/",
+    "title": "\nSenior Python developer\n",
+    "company": "\nTetiana Tarasiuk,\n      HR Manager at Zakaz UA\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n",
+    "description": "\nZakaz.ua \u2014 \u0441\u0435\u0440\u0432\u0438\u0441 \u043f\u043e\u043a\u0443\u043f\u043a\u0438 \u0438 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u0442\u043e\u0432\u0430\u0440\u043e\u0432 \u043e\u043d\u043b\u0430\u0439\u043d \u0438\u0437 \u0441\u0443\u043f\u0435\u0440\u043c\u0430\u0440\u043a\u0435\u0442\u043e\u0432.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 48,
+  "fields": {
+    "url": "https://djinni.co/jobs/99648-python-developer/",
+    "title": "\nPython developer\n",
+    "company": "\nDiana Panko,\n      HR / IT Recruiter at Sportech LLC\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nWe\u2019re expanding our development team and looking for a talented backend engineer who is proficient in Python. \r\nIf you are passionate about technology, constantly seeking to learn and improve skill set, then you are the type of person we are looking for.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 49,
+  "fields": {
+    "url": "https://djinni.co/jobs/108981-back-end-developer-python-/",
+    "title": "\nBack End developer (Python)\n",
+    "company": "\n\u0410\u043b\u0456\u043d\u0430 \u041c\u0456\u0440\u043e\u0448\u043d\u0438\u0447\u0435\u043d\u043a\u043e,\n      IT Recruiter at Live Play Mobile\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nLive Play Mobile is disrupting social gaming with a new type of mobile experience. With global operations in California (San Francisco and Los Angeles), and in Kyiv, Ukraine, we are a team of gaming veterans and technology rockstars who think about games differently.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 50,
+  "fields": {
+    "url": "https://djinni.co/jobs/108944-python-developer/",
+    "title": "\nPython Developer\n",
+    "company": "\n\u041d\u0430\u0442\u0430\u043b\u044c\u044f \u0411\u0430\u0439\u0434\u0438\u043d\u043e\u0432\u0430,\n      HR at fondy.eu\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n",
+    "description": "\n\u041f\u0440\u043e\u0435\u043a\u0442 \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0441\u043e\u0431\u043e\u0439 backend (\u0431\u0438\u043b\u0438\u043d\u0433) \u0438 frontend (Web UI/API), \u0438\u043d\u0442\u0435\u0433\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0441 \u0443\u0436\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u044e\u0449\u0438\u043c\u0438 \u043c\u043e\u0434\u0443\u043b\u044f\u043c\u0438 \u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u0430\u043c\u0438 \u2014 \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u044b\u0439 \u0441\u0435\u0440\u0432\u0438\u0441, \u043e\u0440\u0438\u0435\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u043d\u0430 \u0423\u043a\u0440\u0430\u0438\u043d\u0443 \u0438 \u0415\u0432\u0440\u043e\u043f\u0443\r\n\u041f\u0440\u0438\u043c\u0435\u0440 \u0442\u043e\u0433\u043e, \u0447\u0442\u043e \u043c\u044b \u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u043c \u043c\u043e\u0436\u043d\u043e \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0442\u0443\u0442:\r\nportal.fondy.eu/mportal/\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 51,
+  "fields": {
+    "url": "https://djinni.co/jobs/104105-senior-nlp-expert/",
+    "title": "\nSenior NLP expert\n",
+    "company": "\n\u0410\u043d\u0434\u0440\u0435\u0439 \u0412\u0435\u043b\u0438\u0447\u043a\u043e,\n      \u0414\u0438\u0440\u0435\u043a\u0442\u043e\u0440 \u0432 Dex Technologies\n    \n\u00a0\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u041b\u044c\u0432\u043e\u0432, \u0414\u043d\u0435\u043f\u0440, \u0427\u0435\u0440\u043a\u0430\u0441\u0441\u044b, \u0427\u0435\u0440\u043d\u043e\u0432\u0446\u044b, \u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432, \u0425\u043c\u0435\u043b\u044c\u043d\u0438\u0446\u043a\u0438\u0439, remote\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Advanced/Fluent\n",
+    "description": "\n\u041d\u0435\u0431\u043e\u043b\u044c\u0448\u043e\u0439, \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u043b\u043b\u0435\u043a\u0442\u0438\u0432 \u0438\u0449\u0435\u0442 \u043d\u043e\u0432\u043e\u0433\u043e \u0447\u043b\u0435\u043d\u0430 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b \u043d\u0430\u0434 \u0441\u043b\u043e\u0436\u043d\u044b\u043c \u043d\u043e\u0432\u043e\u0441\u0442\u043d\u044b\u043c \u043f\u043e\u0440\u0442\u0430\u043b\u043e\u043c \u0441 NLP \u0438 ML. \u0415\u0441\u0442\u044c \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0440\u0435\u0430\u043b\u0438\u0437\u043e\u0432\u0430\u0442\u044c \u0441\u0432\u043e\u0438 \u0441\u043a\u0438\u043b\u044b \u0432 \u043f\u043e\u043b\u043d\u043e\u0439 \u043c\u0435\u0440\u0435! \u041f\u0440\u043e\u0435\u043a\u0442 \u0441\u043e\u0437\u0434\u0430\u0435\u043c \u0441 \u043d\u0443\u043b\u044f (\u043d\u0438\u043a\u0430\u043a\u0438\u0445 \u043f\u0435\u0440\u0435\u0434\u0435\u043b\u043e\u043a), \u0441\u0430\u043c\u044b\u0435 \u043f\u0435\u0440\u0435\u0434\u043e\u0432\u044b\u0435 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0438, \u043c\u0438\u043d\u0438\u043c\u0443\u043c \u0431\u044e\u0440\u043e\u043a\u0440\u0430\u0442\u0438\u0438.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 52,
+  "fields": {
+    "url": "https://djinni.co/jobs/108811-senior-python-developer/",
+    "title": "\nSenior Python Developer\n",
+    "company": "\nLesya Pleskach,\n      Senior Recruitment Consultant at Ciklum\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nOn behalf of Ciklum Digital, Ciklum is looking for an experienced Senior Python Developer to join our Kyiv team.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 53,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy7922574",
+    "title": "  Senior Data Engineer, Appointment Scheduling Service\n ",
+    "company": "DataArt",
+    "description": "  Senior Data Engineer, Appointment Scheduling Service\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 54,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy7931161",
+    "title": "  Senior Python Developer, Financial Software Solutions\n ",
+    "company": "DataArt",
+    "description": "  Senior Python Developer, Financial Software Solutions\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 55,
+  "fields": {
+    "url": "https://rabota.ua/company6787525/vacancy7909985",
+    "title": "  Lead Data Scientist\n ",
+    "company": "4i / Fractal Analytics",
+    "description": "  Lead Data Scientist\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 56,
+  "fields": {
+    "url": "https://rabota.ua/company2972039/vacancy7721070",
+    "title": "  \u041f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c IT-\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439 \u043d\u0430 \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u043e\u043c\n ",
+    "company": "\u0428\u0430\u0433, \u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u044f",
+    "description": "  \u041f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c IT-\u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0439 \u043d\u0430 \u0430\u043d\u0433\u043b\u0438\u0439\u0441\u043a\u043e\u043c\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 57,
+  "fields": {
+    "url": "https://rabota.ua/company6787525/vacancy7908597",
+    "title": "  Data scientist\n ",
+    "company": "4i / Fractal Analytics",
+    "description": "  Data scientist\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 58,
+  "fields": {
+    "url": "https://rabota.ua/company2165970/vacancy7927127",
+    "title": "  Senior Full-Stack Python Engineer\n ",
+    "company": "Moneyveo",
+    "description": "  Senior Full-Stack Python Engineer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 59,
+  "fields": {
+    "url": "https://rabota.ua/company1590638/vacancy7874699",
+    "title": "  Python Developer\n ",
+    "company": "EvoPlay",
+    "description": "  Python Developer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 60,
+  "fields": {
+    "url": "https://rabota.ua/company1884618/vacancy7855437",
+    "title": "  Middle Data Scientist (NLP)\n ",
+    "company": "Unicheck",
+    "description": "  Middle Data Scientist (NLP)\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 61,
+  "fields": {
+    "url": "https://rabota.ua/company6076366/vacancy7926883",
+    "title": "  Middle Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\n ",
+    "company": "4bill.io",
+    "description": "  Middle Python-\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 62,
+  "fields": {
+    "url": "https://rabota.ua/company133752/vacancy7803211",
+    "title": "  Senior Python Engineer, World of Tanks\n ",
+    "company": "Wargaming",
+    "description": "  Senior Python Engineer, World of Tanks\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 63,
+  "fields": {
+    "url": "https://rabota.ua/company2263870/vacancy7930736",
+    "title": "  \u041f\u0440\u043e\u0432\u0456\u0434\u043d\u0438\u0439 \u0456\u043d\u0436\u0435\u043d\u0435\u0440 \u0437 \u043c\u043e\u043d\u0456\u0442\u043e\u0440\u0438\u043d\u0433\u0443 \u0434\u043e\u043f\u043e\u043c\u0456\u0436\u043d\u0438\u0445 \u043f\u043e\u0441\u043b\u0443\u0433\n ",
+    "company": "\u041d\u0415\u041a \u0423\u043a\u0440\u0435\u043d\u0435\u0440\u0433\u043e",
+    "description": "  \u041f\u0440\u043e\u0432\u0456\u0434\u043d\u0438\u0439 \u0456\u043d\u0436\u0435\u043d\u0435\u0440 \u0437 \u043c\u043e\u043d\u0456\u0442\u043e\u0440\u0438\u043d\u0433\u0443 \u0434\u043e\u043f\u043e\u043c\u0456\u0436\u043d\u0438\u0445 \u043f\u043e\u0441\u043b\u0443\u0433\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 64,
+  "fields": {
+    "url": "https://rabota.ua/company9405698/vacancy7930681",
+    "title": "  Senior Data Scientist (Kyiv)\n ",
+    "company": "TheWhyKingz",
+    "description": "  Senior Data Scientist (Kyiv)\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 65,
+  "fields": {
+    "url": "https://rabota.ua/company6494831/vacancy7906293",
+    "title": "  DevOps Engineer\n ",
+    "company": "Vortex Advertising",
+    "description": "  DevOps Engineer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 66,
+  "fields": {
+    "url": "https://rabota.ua/company598120/vacancy7933446",
+    "title": "  Senior ML Engineer for AI\\Embedded project #7134\n ",
+    "company": "Lohika",
+    "description": "  Senior ML Engineer for AI\\Embedded project #7134\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 67,
+  "fields": {
+    "url": "https://rabota.ua/company1100697/vacancy7690977",
+    "title": "  Senior Python/Django Developer\n ",
+    "company": "Yael Acceptic",
+    "description": "  Senior Python/Django Developer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 68,
+  "fields": {
+    "url": "https://rabota.ua/company2010137/vacancy7930466",
+    "title": "  DevOps Engineer\n ",
+    "company": "Beetroot ",
+    "description": "  DevOps Engineer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 69,
+  "fields": {
+    "url": "https://rabota.ua/company2972039/vacancy7454062",
+    "title": "  \u041f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c Python\n ",
+    "company": "\u0428\u0430\u0433, \u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u044f",
+    "description": "  \u041f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c Python\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 70,
+  "fields": {
+    "url": "https://rabota.ua/company782154/vacancy7884921",
+    "title": "  Senior Analyst / ML\n ",
+    "company": "Genesis",
+    "description": "  Senior Analyst / ML\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 71,
+  "fields": {
+    "url": "https://rabota.ua/company6425425/vacancy7925767",
+    "title": "  Python Instructor / Developer (Mate academy)\n ",
+    "company": "Genesis",
+    "description": "  Python Instructor / Developer (Mate academy)\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 72,
+  "fields": {
+    "url": "https://rabota.ua/company5267515/vacancy7916551",
+    "title": "  Data Scientist\n ",
+    "company": "AsiaCollect",
+    "description": "  Data Scientist\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-03-29"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 121,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3867345/",
+    "title": "\nSenior Python Developer (Financial Software Solutions)\n",
+    "company": "DataArt",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 5 \u043b\u0435\u0442.\n                            THE POSITION OFFERS REMOTE WORK OPPORTUNITY. Our client is\u00a0a\u00a0New York City-based FinTech startup that\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 122,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3866365/",
+    "title": "\nPython Developer\n",
+    "company": "Lindenvalley GmbH",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            \u0422\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f:   \u041e\u043f\u044b\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438 \u043d\u0430\u00a0Python 3 \u043e\u0442\u00a02\u0445 \u043b\u0435\u0442;   \u0413\u043b\u0443\u0431\u043e\u043a\u0438\u0435 \u0437\u043d\u0430\u043d\u0438\u044f \u0438\u00a0\u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u0435\u0439 \u044f\u0437\u044b\u043a\u0430\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 123,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3865138/",
+    "title": "\nPython-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u0456\u0441\u0442\n",
+    "company": "No name",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u043d\u0435\u043f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u0430, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0441 \u0438\u043d\u0432\u0430\u043b\u0438\u0434\u043d\u043e\u0441\u0442\u044c\u044e. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430. \u0412\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            \u0412\u0438\u043c\u0456\u0440\u044e\u0432\u0430\u043b\u044c\u043d\u0430 \u043b\u0430\u0431\u043e\u0440\u0430\u0442\u043e\u0440\u0456\u044f \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044e \u044f\u043a\u043e\u0441\u0442\u0456 \u0442\u0430 \u0434\u0456\u0430\u0433\u043d\u043e\u0441\u0442\u0438\u043a\u0438 \u0441\u0438\u0441\u0442\u0435\u043c\u0438 \u0448\u0443\u043a\u0430\u0454 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u0456\u0441\u0442\u0430 Python (\u0440\u043e\u0431\u043e\u0442\u0430 \u0443\u00a0\u0441\u0444\u0435\u0440\u0456\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 124,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3299515/",
+    "title": "\nPython-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442\n",
+    "company": "No name",
+    "description": "\n            \u041d\u0435\u043f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0431\u043e\u0442\u0430, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u0430, \u0433\u043e\u0442\u043e\u0432\u044b \u0432\u0437\u044f\u0442\u044c \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 \u0441 \u0438\u043d\u0432\u0430\u043b\u0438\u0434\u043d\u043e\u0441\u0442\u044c\u044e. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 1 \u0433\u043e\u0434\u0430. \u041d\u0435\u043e\u043a\u043e\u043d\u0447\u0435\u043d\u043d\u043e\u0435 \u0432\u044b\u0441\u0448\u0435\u0435 \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435.\n                            \u0414\u043b\u044f \u0432\u043d\u0435\u0434\u0440\u0435\u043d\u0438\u044f \u0432\u00a0\u043d\u0435\u0441\u043b\u043e\u0436\u043d\u043e\u0435 \u0441\u0435\u0440\u0432\u0435\u0440\u043d\u043e\u0435 web-\u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u0431\u0430\u0437\u044b \u0434\u0430\u043d\u043d\u044b\u0445 MySQL \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442 \u043d\u0430\u00a0Python\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 125,
+  "fields": {
+    "url": "https://djinni.co/jobs/111469-senior-python-developer-only-back-end-/",
+    "title": "\nSenior Python Developer (only back-end)\n",
+    "company": "\n\u042f\u043d\u0438\u043d\u0430 \u0425\u043e\u0445\u043b\u043e\u0432\u0430,\n      Talent Acquisition Manager at Devox Software\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nWe are looking for two Python developers to make the development team stronger :) American cloud-based TMS software for the logistic sphere. Long time project with the possibility to become a key player.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 126,
+  "fields": {
+    "url": "https://djinni.co/jobs/111468-senior-python-engineer/",
+    "title": "\nSenior Python Engineer\n",
+    "company": "\nDariia Herasymova,\n      Talent Acquisition Specialist at Devox Software\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        5 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n        \n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nWe are looking for a Senior Python Engineer that can join our engineering team straight away, becoming the main player in the growth of our team.\r\nThe system is cloud-based TMS software for the produce industry.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 127,
+  "fields": {
+    "url": "https://djinni.co/jobs/111332-senior-back-end-engineer-python-go-/",
+    "title": "\nSenior Back-end Engineer (Python+Go)\n",
+    "company": "\nElena Yakovenko,\n      Recruiter at GlobalLogic\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        5 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n        \n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nWe are building a free, ad-supported Video on Demand (VOD) streaming service that, in addition to on-demand options, primarily distributes its content through digital linear channels designed to emulate the experience of traditional broadcast programming.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 128,
+  "fields": {
+    "url": "https://djinni.co/jobs/111329-ml-engineer-with-python-knowledge/",
+    "title": "\nML\u00a0Engineer with Python knowledge\n",
+    "company": "\nInna Nesterenko,\n      Recruiter at Rails Reactor\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nI am looking for ML Engineer with Python knowledge who wants to implement end-to-end solution for data platform.\r\nStack: Python, PostgreSQL, Apache Airflow, Amazon Redshift, PaySpark, ML models, DL libraries.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 129,
+  "fields": {
+    "url": "https://djinni.co/jobs/111317-senior-python-developer/",
+    "title": "\nSenior Python Developer\n",
+    "company": "\nVictoria Lakyziuk,\n      Recruiter at Luxoft\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nWe are looking for Senior Python Developer\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 130,
+  "fields": {
+    "url": "https://djinni.co/jobs/111236-senior-python-golang-developer/",
+    "title": "\nSenior Python/GoLang Developer\n",
+    "company": "\n\u0418\u0440\u0438\u043d\u0430 \u0428\u0430\u0434\u0443\u0440\u0441\u043a\u0430\u044f,\n      Recruiter at Web Sun Group\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n",
+    "description": "\nRetargetApp \u2014 \u043c\u043e\u043b\u043e\u0434\u0430\u044f, \u0434\u0438\u043d\u0430\u043c\u0438\u0447\u043d\u043e \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u044e\u0449\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f, \u043a\u043e\u0442\u043e\u0440\u0430\u044f \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u043c\u0441\u044f \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u043e\u0439 \u0441\u043e\u0431\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430 \u0432 eCommerce \u0438 Ad Tech.\r\n\u041c\u044b \u0438\u0449\u0435\u043c \u0443\u0432\u043b\u0435\u0447\u0435\u043d\u043d\u043e\u0433\u043e \u0441\u0432\u043e\u0435\u0439 \u0440\u0430\u0431\u043e\u0442\u043e\u0439 Senior Python/GoLang Developer \u0432\u043c\u0435\u0441\u0442\u0435 \u0441 \u043a\u043e\u043c\u0430\u043d\u0434\u043e\u0439 \u0441\u0434\u0435\u043b\u0430\u0435\u0442 \u043d\u0430\u0448 \u043f\u0440\u043e\u0434\u0443\u043a\u0442 \u0435\u0449\u0435 \u043b\u0443\u0447\u0448\u0435.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 131,
+  "fields": {
+    "url": "https://djinni.co/jobs/111180-python-developer-with-pandas-library-experien/",
+    "title": "\nPython Developer (with Pandas library experience)\n",
+    "company": "\nAlyona Malyshkina,\n      Senior IT Recruiter at Luxoft\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nOur client is a UK subsidiary of a global financial house working in multiple markets and asset classes.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 132,
+  "fields": {
+    "url": "https://djinni.co/jobs/111175-senior-ml-engineer-for-ai-embedded-project/",
+    "title": "\nSenior ML Engineer for AI/Embedded project\n",
+    "company": "\nIaroslav Zakharchenko,\n      Senior Recruiter at Lohika\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        5 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n        \n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nOur client is an innovative startup from Silicon Valley which is operating in stealth-mode building semiconductor chips targeted for data centers and future Edge Computing deployment. You will have an opportunity to participate in ML\\hardware projects to build a chip for AI acceleration.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 133,
+  "fields": {
+    "url": "https://djinni.co/jobs/111141-lead-python-developer/",
+    "title": "\nLead Python Developer\n",
+    "company": "\nKvitoslava Pasichnyk,\n      Recruiter at Intellias\n    \n\u00a0\u041a\u0438\u0457\u0432, \u041b\u044c\u0432\u0456\u0432\n\n     \n\n      \u00b7\n      \n      \n        5 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n        \n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nOur Client is a government-owned company operating under the Ministry of Health and working as a key enabler of E-Health innovation in Saudi Arabia. Their objectives are to contribute to transforming the Saudi health ecosystem and elevating the services of the Health Sector.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 134,
+  "fields": {
+    "url": "https://djinni.co/jobs/30056-fullstack-python-vue-developer/",
+    "title": "\nFullstack Python/Vue Developer\n",
+    "company": "\nSergey Kirillov,\n      CTO at Linkalong\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\n\u0425\u043e\u0440\u043e\u0448\u0438\u0439 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u0442\u0435\u043a: Python3, Cassandra, ElasticSearch, Redis, RabbitMQ, JS, React.\r\n\u0418\u043d\u0442\u0435\u0440\u0435\u0441\u043d\u044b\u0435 \u0437\u0430\u0434\u0430\u0447\u0438: big data (200-300Gb/day), machine learning, natural language processing\r\n\u041c\u0438\u043d\u0438\u043c\u0430\u043b\u0438\u0441\u0442\u0438\u0447\u043d\u044b\u0439 \u043c\u0435\u043d\u0435\u0434\u0436\u043c\u0435\u043d\u0442.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 135,
+  "fields": {
+    "url": "https://djinni.co/jobs/111106-python-django-developer/",
+    "title": "\nPython (Django) developer\n",
+    "company": "\nTetiana Pravorska,\n      Head of Recruitment at Proxify\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nThe company is about to launch the website with some new features. We need you to complement the existing team in Sweden to build new features to the platform. You are going to become the CTO on the project and manage several developers.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 136,
+  "fields": {
+    "url": "https://djinni.co/jobs/111094-software-engineer-python-kernel-/",
+    "title": "\nSoftware Engineer (Python, Kernel)\n",
+    "company": "\nElena Zinchenko,\n      Recruiter at Mellanox Technologies\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nMellanox is looking for talented and experienced Software Engineers (Python, C) to join our R&D office in Kyiv.\r\nWe are developing firmware that runs on NICs (Network Interface Cards) that installed in such companies as Facebook, Alibaba, Netflix, Microsoft, and many others.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 137,
+  "fields": {
+    "url": "https://djinni.co/jobs/111047-senior-python-developer-healthcare-project-/",
+    "title": "\nSenior Python Developer (healthcare project)\n",
+    "company": "\nAlina Zakharchenko,\n      IT Recruiter \u0432  NCube Ltd\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        5 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n        \n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 138,
+  "fields": {
+    "url": "https://djinni.co/jobs/111037-senior-python-django-developer/",
+    "title": "\nSenior Python Django developer\n",
+    "company": "\nInga Godovanyuk,\n      Human Resources Management at Zakaz.ua\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\n\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u043b\u0438\u044f\u0442\u044c \u043d\u0430 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u043d\u044b\u0435 \u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u044b\u0435 \u0440\u0435\u0448\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u0438\u044f \u0431\u043e\u043b\u0435\u0435 \u0438\u043d\u043d\u043e\u0432\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430. \u041c\u044b \u043d\u0430\u043c\u0435\u0440\u0435\u043d\u044b \u0441\u043e\u0437\u0434\u0430\u0432\u0430\u0442\u044c \u0431\u0438\u0437\u043d\u0435\u0441 \u043d\u0430 \u0434\u043e\u043b\u0433\u043e\u0441\u0440\u043e\u0447\u043d\u0443\u044e \u043f\u0435\u0440\u0441\u043f\u0435\u043a\u0442\u0438\u0432\u0443, \u043f\u043e\u0442\u043e\u043c\u0443 \u043e\u0442\u043a\u0440\u044b\u0442\u044b \u043a \u044d\u043a\u0441\u043f\u0435\u0440\u0438\u043c\u0435\u043d\u0442\u0430\u043c \u0438 \u043d\u0435\u043e\u0431\u044b\u0447\u043d\u044b\u043c \u0437\u0430\u0434\u0430\u0447\u0430\u043c.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 139,
+  "fields": {
+    "url": "https://djinni.co/jobs/111017-data-engineer/",
+    "title": "\nData Engineer\n",
+    "company": "\nKarina Shchelkanova,\n      IT recruiter at IT Rex\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        5 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n        \n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\n\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u0430\u044f \u0406\u0422-\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0441 \u0433\u043b\u0430\u0432\u043d\u044b\u043c \u043e\u0444\u0438\u0441\u043e\u043c \u0432 \u041d\u044c\u044e-\u0419\u043e\u0440\u043a\u0435 (\u0438\u0433\u0440\u043e\u0432\u043e\u0439 \u043f\u0430\u0440\u0442\u043d\u0435\u0440 \u043d\u043e\u0432\u043e\u0433\u043e \u043f\u043e\u043a\u043e\u043b\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u0435\u0434\u0443\u0449\u0438\u0445 \u043d\u0435\u0437\u0430\u0432\u0438\u0441\u0438\u043c\u044b\u0445 \u0441\u0442\u0443\u0434\u0438\u0439 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0438, \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0438\u0440\u0443\u044e\u0449\u0438\u0439\u0441\u044f \u043d\u0430 \u0431\u044b\u0441\u0442\u0440\u043e\u0440\u0430\u0441\u0442\u0443\u0449\u0438\u0445 \u0440\u044b\u043d\u043a\u0430\u0445 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u044b\u0445 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432 \u0438 \u043f\u043b\u0430\u043d\u0448\u0435\u0442\u043e\u0432) \u0432 \u043f\u043e\u0438\u0441\u043a\u0430\u0445 \u043e\u043f\u044b\u0442\u043d\u043e\u0433\u043e Data Engineer.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 140,
+  "fields": {
+    "url": "https://rabota.ua/company277662/vacancy7931153",
+    "title": "  Senior BigData Engineer, Financial Software Solutions\n ",
+    "company": "DataArt",
+    "description": "  Senior BigData Engineer, Financial Software Solutions\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 141,
+  "fields": {
+    "url": "https://rabota.ua/company236483/vacancy7930667",
+    "title": "  DevOps Engineer\n ",
+    "company": "Capital Recruiters",
+    "description": "  DevOps Engineer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 142,
+  "fields": {
+    "url": "https://rabota.ua/company3633711/vacancy6999816",
+    "title": "  Junior/Middle/Senior Python Developer\n ",
+    "company": "Citirex",
+    "description": "  Junior/Middle/Senior Python Developer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 143,
+  "fields": {
+    "url": "https://rabota.ua/company3633711/vacancy6304751",
+    "title": "  Python Django Developer (Junior/Middle/Senior)\n ",
+    "company": "Citirex",
+    "description": "  Python Django Developer (Junior/Middle/Senior)\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 144,
+  "fields": {
+    "url": "https://rabota.ua/company39278/vacancy7910958",
+    "title": "  Data Scientist\n ",
+    "company": "KERNEL",
+    "description": "  Data Scientist\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 145,
+  "fields": {
+    "url": "https://rabota.ua/company9355528/vacancy7935919",
+    "title": "  Lead Computer Vision Engineer\n ",
+    "company": "Limpid Group",
+    "description": "  Lead Computer Vision Engineer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 146,
+  "fields": {
+    "url": "https://rabota.ua/company1590638/vacancy7805032",
+    "title": "  Data scientist\n ",
+    "company": "EvoPlay",
+    "description": "  Data scientist\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 147,
+  "fields": {
+    "url": "https://rabota.ua/company598120/vacancy7935666",
+    "title": "  Senior Computer Vision\\ML Engineer\n ",
+    "company": "Lohika",
+    "description": "  Senior Computer Vision\\ML Engineer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 148,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/svitla-systems-inc/vacancies/119289/?from=list_hot",
+    "title": "\nSenior Computer Vision Engineer\u00a0\u0432\u00a0\u00a0Svitla Systems, Inc.\n\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u041b\u044c\u0432\u043e\u0432, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "company": "\u00a0Svitla Systems, Inc.",
+    "description": "\n\t\t\t\t\tSvitla Systems Inc.\u00a0is\u00a0looking for Senior Computer Vision Engineer for a\u00a0full-time position (40\u00a0hours per week) in\u00a0Ukraine. Our client is\u00a0a\u00a0National Digital Marketing company that has been in\u00a0business since 2011.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 149,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/weplay-esports/vacancies/116664/?from=list_hot",
+    "title": "\nMiddle Python Developer\u00a0\u0432\u00a0\u00a0WePlay! Esports\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0WePlay! Esports",
+    "description": "\n\t\t\t\t\tAbout\u00a0us:\n\nWePlay! Esports is\u00a0the first esportainment company in\u00a0TECHIIA holding, that combined esports, storytelling and entertainment content. We\u00a0want to\u00a0surprise and entertain every esports fan and attract new ones.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 150,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/dataart/vacancies/118895/?from=list_hot",
+    "title": "\nSenior Python Developer, Financial Software Solutions\u00a0\u0432\u00a0\u00a0DataArt\n\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u041b\u044c\u0432\u043e\u0432, \u0414\u043d\u0435\u043f\u0440, \u041e\u0434\u0435\u0441\u0441\u0430, \u0425\u0435\u0440\u0441\u043e\u043d, \u041b\u044e\u0431\u043b\u0438\u043d (\u041f\u043e\u043b\u044c\u0448\u0430), \u0412\u0440\u043e\u0446\u043b\u0430\u0432 (\u041f\u043e\u043b\u044c\u0448\u0430), \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "company": "\u00a0DataArt",
+    "description": "\n\t\t\t\t\tTHE POSITION OFFERS REMOTE WORK OPPORTUNITY.\n\nOur client is\u00a0a\u00a0New York City-based FinTech startup that is\u00a0building a\u00a0trading and risk software platform for the investment banking industry to\u00a0sell as\u00a0a\u00a0service.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 151,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/devox-software/vacancies/119532/",
+    "title": "\nSenior Python Engineer\u00a0\u0432\u00a0\u00a0Devox Software\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Devox Software",
+    "description": "\n\t\t\t\t\tDevox Software is\u00a0an\u00a0international\u00a0IT solutions provider that focuses on\u00a0software development outsourcing and building development teams.\n\nWe\u00a0are a\u00a0balanced and open-minded team of\u00a0professionals.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 152,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/zakaz-ua/vacancies/85729/",
+    "title": "\nSenior Python developer\u00a0\u0432\u00a0\u00a0ZAKAZ.UA\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0ZAKAZ.UA",
+    "description": "\n\t\t\t\t\tZakaz.ua\u00a0\u2014 \u043b\u0438\u0434\u0435\u0440 \u043d\u0430\u00a0\u0440\u044b\u043d\u043a\u0435 \u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432 \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u0432\u00a0\u0423\u043a\u0440\u0430\u0438\u043d\u0435. \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u043f\u0440\u0435\u0434\u043e\u0441\u0442\u0430\u0432\u043b\u044f\u0435\u0442 \u0443\u0441\u043b\u0443\u0433\u0438 \u0437\u0430\u043a\u0430\u0437\u0430 \u0438\u00a0\u0434\u043e\u0441\u0442\u0430\u0432\u043a\u0438 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432 \u043f\u0438\u0442\u0430\u043d\u0438\u044f \u043e\u0442\u00a0\u043a\u0440\u0443\u043f\u043d\u0435\u0439\u0448\u0438\u0445 \u0440\u043e\u0437\u043d\u0438\u0447\u043d\u044b\u0445 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u044b\u0445 \u0441\u0435\u0442\u0435\u0439 \u0423\u043a\u0440\u0430\u0438\u043d\u044b: METRO, AUCHAN, NOVUS, MEGAMARKET, FURSHET. \nZakaz.ua \u043e\u0441\u043d\u043e\u0432\u0430\u043d\u0430 \u0432\u00a02010\u00a0\u0433\u043e\u0434\u0443.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 153,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/data-science-ua/vacancies/114720/",
+    "title": "\nFull-Stack Web Developer (Python backend)\u00a0\u0432\u00a0\u00a0Data Science UA\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Data Science UA",
+    "description": "\n\t\t\t\t\tOur friends is\u00a0a\u00a0VC-backed startup creating a\u00a0system that lets one voice sound like another, focused on\u00a0very\nhigh-quality output and usability for demanding applications like\u00a0TV and movies, call centers, and gaming.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 154,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/portaone/vacancies/119409/",
+    "title": "\nMiddle/Senior Python Software Engineer\u00a0\u0432\u00a0\u00a0PortaOne\n\u041a\u0438\u0435\u0432, \u0421\u0443\u043c\u044b, \u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "company": "\u00a0PortaOne",
+    "description": "\n\t\t\t\t\tPortaOne\u00a0\u2014 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0441\u043e\u0437\u0434\u0430\u043d\u043d\u0430\u044f \u0443\u043a\u0440\u0430\u0438\u043d\u0446\u0430\u043c\u0438 \u0432\u00a01997\u00a0\u0433\u043e\u0434\u0443, \u0442\u0435\u043f\u0435\u0440\u044c \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043c\u0438\u0440\u043e\u0432\u044b\u043c \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a\u043e\u043c \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0433\u043e \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u0442\u0435\u043b\u0435\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0446\u0438\u0439.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 155,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ukrenergo/vacancies/60959/",
+    "title": "\nMiddle Python developer\u00a0\u0432\u00a0\u00a0\u041d\u0415\u041a \"\u0423\u043a\u0440\u0435\u043d\u0435\u0440\u0433\u043e\" - NPC Ukrenergo\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0\u041d\u0415\u041a \"\u0423\u043a\u0440\u0435\u043d\u0435\u0440\u0433\u043e\" - NPC Ukrenergo",
+    "description": "\n\t\t\t\t\t\u041f\u043e\u0432\u043d\u0430 \u0432\u0438\u0449\u0430 \u043e\u0441\u0432\u0456\u0442\u0430;\n\u0414\u043e\u0441\u0432\u0456\u0434 \u0440\u043e\u0437\u0440\u043e\u0431\u043a\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043d\u043e\u0433\u043e \u0437\u0430\u0431\u0435\u0437\u043f\u0435\u0447\u0435\u043d\u043d\u044f 2+\u00a0\u0440\u043e\u043a\u0438.\n\u0420\u043e\u0437\u0443\u043c\u0456\u043d\u043d\u044f \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440 \u0434\u0430\u043d\u0438\u0445 \u0442\u0430\u00a0\u043e\u0441\u043d\u043e\u0432\u043d\u0438\u0445 \u043f\u0430\u0442\u0435\u0440\u043d\u0456\u0432 \u043f\u0440\u043e\u0435\u043a\u0442\u0443\u0432\u0430\u043d\u043d\u044f, \u0430\u00a0\u0442\u0430\u043a\u043e\u0436 \u0440\u043e\u0437\u0443\u043c\u0456\u043d\u043d\u044f \u043e\u0441\u043d\u043e\u0432 \u0437\u0430\u0441\u0430\u0434 SOLID.\n\u0417\u043d\u0430\u043d\u043d\u044f \u043c\u043e\u0432\u0438 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u0443\u0432\u0430\u043d\u043d\u044f Python \u0432\u00a0\u0432\u0435\u0440\u0441\u0456\u0457\u00a03.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 156,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/go-interactive/vacancies/119404/",
+    "title": "\nSenior Back-End Developer (Python)\u00a0\u0432\u00a0\u00a0Go interactive\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Go interactive",
+    "description": "\n\t\t\t\t\tOur Stack\n\n\u25cf Testing (Jest, Sinon)\n\u25cf Analytics, Error Capturing (Google, Rollbar)\n\u25cf Languages (Javascript, Python)\n\u25cf Frameworks (React/Redux, Django)\n\u25cf AWS (RDS, EC2, S3)\n\u25cf Visualization library (D3)\n\u25cf iOS (Viper/Swift)\n\u25cf Android (MVVM/Kotlin)\n\nBuilding the ecosystem for care...\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 157,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/litslink/vacancies/80388/",
+    "title": "\nPython (Django) Developer\u00a0\u0432\u00a0\u00a0LITSLINK\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0LITSLINK",
+    "description": "\n\t\t\t\t\tWe\u00a0look for experienced Python Developer who likes the idea of\u00a0doing a\u00a0bit of\u00a0everything and wants to\u00a0work in\u00a0a\u00a0fast-paced environment.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 158,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ring-ukraine/vacancies/119373/",
+    "title": "\nML\u00a0Engineer C++/Python\u00a0\u0432\u00a0\u00a0Ring Ukraine\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Ring Ukraine",
+    "description": "\n\t\t\t\t\tJob Summary\n\nAs\u00a0a\u00a0member of\u00a0our Research Team, you will be\u00a0solving challenging problems. You will be\u00a0engaged in\u00a0an\u00a0iterated process of\u00a0data preparation, prototyping and/or implementation, measurement, and deploying your solution.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 159,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/moneyveo/vacancies/119371/",
+    "title": "\nMiddle/Senior Full-Stack Python Engineer\u00a0\u0432\u00a0\u00a0Moneyveo\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Moneyveo",
+    "description": "\n\t\t\t\t\tMoneyveo is\u00a0a\u00a0fast growing product company. Our primary product is\u00a0an\u00a0online credit system, allowing customer to\u00a0get a\u00a0loan online within 10\u00a0minutes.\n\nNow, we\u00a0are looking for experienced Full-Stack Engineer to\u00a0extend our R&D team in\u00a0Kiev office.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 160,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/go-interactive/vacancies/119363/",
+    "title": "\nSenior Full-stack Developer (Python/React)\u00a0\u0432\u00a0\u00a0Go interactive\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Go interactive",
+    "description": "\n\t\t\t\t\tOur Stack\n\n\u25cf Testing (Jest, Sinon)\n\u25cf Analytics, Error Capturing (Google, Rollbar)\n\u25cf Languages (Javascript, Python)\n\u25cf Frameworks (React/Redux, Django)\n\u25cf AWS (RDS, EC2, S3)\n\u25cf Visualization library (D3)\n\u25cf iOS (Viper/Swift)\n\u25cf Android (MVVM/Kotlin)\n\nBuilding the ecosystem for care...\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 161,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ubiquiti-networks/vacancies/95010/",
+    "title": "\nSenior Python QA\u00a0Automation Engineer (Switch Products)\u00a0\u0432\u00a0\u00a0Ubiquiti Inc\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Ubiquiti Inc",
+    "description": "\n\t\t\t\t\t\u2014\u00a03\u00a0years of\u00a0software testing experience, at\u00a0least 1\u00a0year of\u00a0QA\u00a0Automation using Python.\n\u2014\u00a0Strong experience in\u00a0Python, REST API and scripting languages.\n\u2014\u00a0Strong knowledge of\u00a0software\u00a0QA methodologies, tools and processes.\n\u2014\u00a0Experience with Jenkins, Git.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 162,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/alfabank/vacancies/103371/",
+    "title": "\nPython developer\u00a0\u0432\u00a0\u00a0\u0410\u043b\u044c\u0444\u0430-\u0411\u0430\u043d\u043a \u0423\u043a\u0440\u0430\u0438\u043d\u0430\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0\u0410\u043b\u044c\u0444\u0430-\u0411\u0430\u043d\u043a \u0423\u043a\u0440\u0430\u0438\u043d\u0430",
+    "description": "\n\t\t\t\t\t\u2014\u00a0\u0443\u0447\u0430\u0441\u0442\u044c \u0443\u00a0\u0446\u0456\u043a\u0430\u0432\u043e\u043c\u0443 \u043f\u0440\u043e\u0435\u043a\u0442\u0456 \u0437\u00a0\u0440\u043e\u0437\u0432\u0438\u0442\u043a\u0443 \u0441\u0438\u0441\u0442\u0435\u043c\u0438 \u043b\u043e\u044f\u043b\u044c\u043d\u043e\u0441\u0442\u0456 \u0434\u043b\u044f \u043a\u043b\u0456\u0435\u043d\u0442\u0456\u0432 \u0411\u0430\u043d\u043a\u0443 \u0432\u00a0in\u00a0real-time\n\u2014\u00a0\u0431\u0440\u0430\u0442\u0438 \u0443\u0447\u0430\u0441\u0442\u044c \u0443\u00a0\u0440\u043e\u0437\u0440\u043e\u0431\u0446\u0456 \u043d\u043e\u0432\u0438\u0445 \u0442\u0430\u00a0\u0434\u043e\u0440\u043e\u0431\u0446\u0456 \u0456\u0441\u043d\u0443\u044e\u0447\u0438\u0445 \u0456\u043d\u0442\u0435\u0433\u0440\u0430\u0446\u0456\u0439\u043d\u0438\u0445 \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0456\u0432 \u043d\u0430\u00a0\u0431\u0430\u0437\u0456 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0439 Big data\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 163,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/openvpn/vacancies/83880/",
+    "title": "\nSenior Python Engineer for Networking Solutions\u00a0\u0432\u00a0\u00a0OpenVPN\n\u041a\u0438\u0435\u0432, \u041b\u044c\u0432\u043e\u0432\n",
+    "company": "\u00a0OpenVPN",
+    "description": "\n\t\t\t\t\tIf\u00a0you have ever used a\u00a0VPN service, chances are it\u00a0was based on\u00a0OpenVPN, an\u00a0open-source protocol that we\u00a0first developed over 16\u00a0years ago and that has since become the de-facto industry standard implemented in\u00a0the majority of\u00a0commercial VPN software.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 164,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/competera/vacancies/119253/",
+    "title": "\nPaid Internship\u00a0\u2014 Python Software Engineer (Scrapy)\u00a0\u0432\u00a0\u00a0Competera\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Competera",
+    "description": "\n\t\t\t\t\tCompetera is\u00a0a\u00a0Ukrainian software development company offering a\u00a0comprehensive pricing platform for large retailers worldwide. We\u00a0change the way retailers do\u00a0pricing with Big Data and Deep Learning to\u00a0help them compete with giants like Amazon and Walmart.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 165,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/labstech/vacancies/103556/",
+    "title": "\nLead Machine Learning Engineer\u00a0\u0432\u00a0\u00a0LabsTECH\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0LabsTECH",
+    "description": "\n\t\t\t\t\tOur client is\u00a0leading the computer vision space with advanced embedded sensing and deep learning solutions for the automotive and home environments.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 166,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/plink-gg/vacancies/108660/",
+    "title": "\nSenior Python Developer, backend\u00a0\u0432\u00a0\u00a0PLINK.GG\n$2000\u20134000\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0PLINK.GG",
+    "description": "\n\t\t\t\t\t\u041c\u044b\u00a0\u0440\u0430\u0437\u0440\u0430\u0431\u0430\u0442\u044b\u0432\u0430\u0435\u043c \u0438\u0433\u0440\u043e\u0432\u044b\u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u044f \u0434\u043b\u044f \u0432\u0437\u0430\u0438\u043c\u043e\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044f \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0435\u0439 \u0432\u00a0\u0440\u0430\u0437\u043d\u044b\u0445 \u0438\u0433\u0440\u043e\u0432\u044b\u0445 \u0441\u043e\u043e\u0431\u0449\u0435\u0441\u0442\u0432\u0430\u0445. \u0410\u0433\u0440\u0435\u0433\u0438\u0440\u0443\u0435\u043c \u0434\u0430\u043d\u043d\u044b\u0435 \u0438\u0437\u00a0\u0440\u0430\u0437\u043d\u044b\u0445 \u0441\u0438\u0441\u0442\u0435\u043c, \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u043c \u0432\u00a0\u043e\u0434\u043d\u043e\u043c \u043c\u0435\u0441\u0442\u0435 \u0438\u00a0\u043e\u0442\u0441\u043b\u0435\u0436\u0438\u0432\u0430\u0435\u043c \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f. \u041f\u0440\u043e\u0435\u043a\u0442 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044f \u043a\u0440\u0443\u043f\u043d\u043e\u0439 \u0433\u0435\u0439\u043c\u0434\u0435\u0432 \u0441\u0442\u0443\u0434\u0438\u0435\u0439.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 167,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/respeecher/vacancies/117062/",
+    "title": "\nFull Stack Web Developer (Python backend)\u00a0\u0432\u00a0\u00a0Respeecher\n$1500\u20135000\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Respeecher",
+    "description": "\n\t\t\t\t\tWe\u00a0are a\u00a0VC-backed startup creating a\u00a0system that lets one voice sound like another, focused on\u00a0very\nhigh-quality output and usability for demanding applications like\u00a0TV and movies, call centers, and gaming.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-11"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 168,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3868125/",
+    "title": "\nSenior Python Engineer\n",
+    "company": "Devox Software",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            We\u00a0are looking for a Senior Python Engineer that can join our engineering team straight away, becoming\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 169,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/3822746/",
+    "title": "\nMiddle Python Backend Engineer\n",
+    "company": "In Diverse Company",
+    "description": "\n            \u041f\u043e\u043b\u043d\u0430\u044f \u0437\u0430\u043d\u044f\u0442\u043e\u0441\u0442\u044c. \u041e\u043f\u044b\u0442 \u0440\u0430\u0431\u043e\u0442\u044b \u043e\u0442 2 \u043b\u0435\u0442.\n                            \u041d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u044b\u0435 \u043d\u0430\u0432\u044b\u043a\u0438 Core Requirements:   2+ years' experience in\u00a0Software Development with Python    Ideally,\u2026\u2060\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 170,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/omilia-ltd/vacancies/119812/",
+    "title": "\nAutomatic Speech Recognition Developer\u00a0\u0432\u00a0\u00a0Omilia Natural Language Solutions UA Ltd\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Omilia Natural Language Solutions UA Ltd",
+    "description": "\n\t\t\t\t\tOmilia is\u00a0an\u00a0international company with offices in\u00a0Athens, Kyiv, Crete and Prague a.o.\nOur customers are big contact centers all over the world, from USA, Canada, Spain, Poland, Ukraine, Kazakhstan, Belarus, Greece, South Africa, a.o.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 171,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/omilia-ltd/vacancies/119809/",
+    "title": "\nPython Developer\u00a0\u0432\u00a0\u00a0Omilia Natural Language Solutions UA Ltd\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Omilia Natural Language Solutions UA Ltd",
+    "description": "\n\t\t\t\t\tOmilia is\u00a0an\u00a0international company with offices in\u00a0Athens, Kyiv, Crete and Prague a.o.\nOur customers are big contact centers all over the world, from USA, Canada, Spain, Poland, Ukraine, Kazakhstan, Belarus, Greece, South Africa, a.o.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 172,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ts-tech/vacancies/119787/",
+    "title": "\nMiddle Python Developer\u00a0\u0432\u00a0\u00a0TS Tech\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0TS Tech",
+    "description": "\n\t\t\t\t\t\u041f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\u0430\u044f IT\u00a0\u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f, \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0430\u044f\u0441\u044f \u043d\u0430\u00a0\u0440\u044b\u043d\u043a\u0435 \u0431\u043e\u043b\u0435\u0435 9\u00a0\u043b\u0435\u0442.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 173,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/genesis-technology-partners/vacancies/116795/",
+    "title": "\nPython Instructor\u00a0/ Developer (Mate academy)\u00a0\u0432\u00a0\u00a0Genesis\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Genesis",
+    "description": "\n\t\t\t\t\tGenesis\u00a0\u2014 is\u00a0a\u00a0full-cycle international product \u0406\u0422-company. \u2028We\u00a0are the most high-loaded company in\u00a0the country and one of\u00a0the largest partner of\u00a0Facebook, Google, Snapchat and Apple in\u00a0the CEE region.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 174,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ajax-systems/vacancies/114336/",
+    "title": "\nJunior Developer in\u00a0Test (Python)\u00a0\u0432\u00a0\u00a0Ajax Systems\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Ajax Systems",
+    "description": "\n\t\t\t\t\t\u041c\u0438, Ajax Systems, \u0441\u0442\u0432\u043e\u0440\u044e\u0454\u043c\u043e \u0441\u0438\u0441\u0442\u0435\u043c\u0443 \u0431\u0435\u0437\u043f\u0435\u043a\u0438 \u0456\u00a0\u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0457 smart home. \u0425\u043e\u0447\u0435\u043c\u043e, \u0449\u043e\u0431 \u043a\u043e\u0436\u0435\u043d \u0431\u0443\u0434\u0438\u043d\u043e\u043a \u0441\u0442\u0430\u0432 \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u0438\u043c \u0456\u00a0\u043d\u0430\u0434\u0456\u0439\u043d\u0438\u043c, \u0430\u00a0\u0441\u0438\u0433\u043d\u0430\u043b\u0456\u0437\u0430\u0446\u0456\u0457\u00a0\u2014 \u0442\u0435\u0445\u043d\u043e\u043b\u043e\u0433\u0456\u0447\u043d\u0438\u043c\u0438, \u0441\u0442\u0438\u043b\u044c\u043d\u0438\u043c\u0438 \u0456\u00a0\u043f\u0440\u043e\u0441\u0442\u0438\u043c\u0438 \u0443\u00a0\u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u0456. \u0412\u0456\u0440\u0438\u043c\u043e \u0432\u00a0\u0456\u043d\u0442\u0435\u0440\u043d\u0435\u0442 \u0440\u0435\u0447\u0435\u0439 \u0456\u00a0\u0440\u043e\u0437\u0443\u043c\u043d\u0443 \u0431\u0435\u0437\u043f\u0435\u043a\u0443, \u044f\u043a\u00a0\u0439\u043e\u0433\u043e \u043e\u0441\u043d\u043e\u0432\u0443.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 175,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/dataforest/vacancies/82694/",
+    "title": "\nMiddle/Senior Django Developer\u00a0\u0432\u00a0\u00a0Dataforest\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Dataforest",
+    "description": "\n\t\t\t\t\tDataForest\u2014 we\u00a0are experts committed to\u00a0creating bespoke data-driven solutions for the variety of\u00a0corporate clients over the world.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 176,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/lohika-systems/vacancies/91712/",
+    "title": "\nSenior Python Engineer #7319\u00a0\u0432\u00a0\u00a0Lohika\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Lohika",
+    "description": "\n\t\t\t\t\tABOUT THE PROJECT: \nOur customer takes the leading position in\u00a0advanced data analytics and engineering expertise.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 177,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/beetroot/vacancies/119621/",
+    "title": "\nSenior Data Engineer (Python)\u00a0\u0432\u00a0\u00a0Beetroot\n\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u041e\u0434\u0435\u0441\u0441\u0430\n",
+    "company": "\u00a0Beetroot",
+    "description": "\n\t\t\t\t\tWe\u2019re looking for a\u00a0Senior Data Engineer who is\u00a0ready to\u00a0develop in\u00a0a\u00a0highly innovative, cutting-edge technology environment. Challenge promised, adventures guaranteed!\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 178,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/turnkey-labs/vacancies/119603/",
+    "title": "\nData Engineer\u00a0\u0432\u00a0\u00a0TurnKey Labs\n\u041a\u0438\u0435\u0432, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "company": "\u00a0TurnKey Labs",
+    "description": "\n\t\t\t\t\tOn\u00a0behalf of\u00a0Persefoni (https://www.persefoni.com/), TurnKey is\u00a0looking for a\u00a0Data Engineer to\u00a0join our technology team.\n\nAbout the Client\n\nOur mission is\u00a0the enablement of\u00a0every organization and person with the technology to\u00a0positively impact the health of\u00a0planet Earth.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 179,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/limestone-digital/vacancies/119576/",
+    "title": "\nFull-stack (Django + React) Developer (middle)\u00a0\u0432\u00a0\u00a0Limestone Digital\n\u041a\u0438\u0435\u0432\n",
+    "company": "\u00a0Limestone Digital",
+    "description": "\n\t\t\t\t\tOur partner is\u00a0a\u00a0huge company that builds solutions in\u00a0the Finance sphere. The idea of\u00a0this particular project is\u00a0to\u00a0help out company with scanning and managing financial documents. There is\u00a0already a\u00a0third-party solution in\u00a0place, so\u00a0all the hard work is\u00a0done.\n\t\t\t\t",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 180,
+  "fields": {
+    "url": "https://djinni.co/jobs/112880-prepodavatel-python/",
+    "title": "\n\u041f\u0440\u0435\u043f\u043e\u0434\u0430\u0432\u0430\u0442\u0435\u043b\u044c Python\n",
+    "company": "\n\u0418\u0433\u043e\u0440\u044c \u0413\u0440\u0438\u0433\u043e\u0440\u044c\u0435\u0432,\n      HRG \u0432 IT STEP\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        1 \u0440\u0456\u043a \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n",
+    "description": "\n\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u0430\u044f \u0410\u043a\u0430\u0434\u0435\u043c\u0438\u044f \u0428\u0410\u0413 - \u043a\u0440\u0443\u043f\u043d\u0435\u0439\u0448\u0435\u0435 \u043c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u043e\u0435 \u0443\u0447\u0435\u0431\u043d\u043e\u0435 \u0437\u0430\u0432\u0435\u0434\u0435\u043d\u0438\u0435, \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0437\u0438\u0440\u0443\u044e\u0449\u0435\u0435\u0441\u044f \u043d\u0430 \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u043e\u043c \u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0438. \u0420\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u0441 1999 \u0433\u043e\u0434\u0430. \u041e\u0442\u043a\u0440\u044b\u0442\u043e 83 \u0444\u0438\u043b\u0438\u0430\u043b\u043e\u0432 \u0432 20 \u0441\u0442\u0440\u0430\u043d\u0430\u0445 \u043c\u0438\u0440\u0430.\r\n\r\n\u0428\u0410\u0413 - \u043a\u0440\u0443\u043f\u043d\u0435\u0439\u0448\u0438\u0439 \u0430\u0432\u0442\u043e\u0440\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u044b\u0439 \u0443\u0447\u0435\u0431\u043d\u044b\u0439 \u0446\u0435\u043d\u0442\u0440 Microsoft, Cisco, Autodesk.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 181,
+  "fields": {
+    "url": "https://djinni.co/jobs/112863-python-developer/",
+    "title": "\nPython Developer\n",
+    "company": "\nMaryan Kondratyuk,\n      General Director of Omilia Natural Language Solutions UA Ltd\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        5 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n        \n      \n      \n\n      \n         \u00b7\n         Advanced/Fluent\n",
+    "description": "\nWe are looking for someone who will:\r\n1. Lead our team in Kyiv of Python Developers\r\n2. Develop multiple products of our Software Development company related to Machine Learning and Artificial Intelligence\r\n3. English level C1-C2\r\n4. Working experience in US/EU Software Development Company\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 182,
+  "fields": {
+    "url": "https://djinni.co/jobs/112858-automatic-speech-recognition-developer/",
+    "title": "\nAutomatic Speech Recognition Developer\n",
+    "company": "\nMaryan Kondratyuk,\n      General Director of Omilia Natural Language Solutions UA Ltd\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        1 \u0440\u0456\u043a \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nWe are looking for someone who will:\r\n1. join our team in Kyiv and assist in development and maintenance of automatic speech recognition of multiple languages\r\n2. English is must, any other European language can be considered as a plus\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 183,
+  "fields": {
+    "url": "https://djinni.co/jobs/112853-data-engineer-microsoft-azure-datalake/",
+    "title": "\nData Engineer Microsoft Azure Datalake\n",
+    "company": "\nVitaly Notan,\n      Awery Aviation Software\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nDevelopment of algorithms and managing the input, storage, and output of the Microsoft Azure Cloud Database (datalake). Using your engineering/programming skill to realize integrations, algorithms & Dax Formulas\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 184,
+  "fields": {
+    "url": "https://djinni.co/jobs/112845-python-developer/",
+    "title": "\nPython Developer\n",
+    "company": "\nMaxym Sydorov,\n      ReactJS Front-End Developer at Code-Room\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\n\u0412 \u0410\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0443\u044e TECH \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f Code-Room \u0432 \u043a\u0438\u0435\u0432\u0441\u043a\u0438\u0439 \u043e\u0444\u0438\u0441 \u0442\u0440\u0435\u0431\u0443\u0435\u0442\u0441\u044f Python \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u0447\u0438\u043a. \u0418\u043c\u0435\u0435\u0442\u0441\u044f \u0443\u0434\u043e\u0431\u043d\u043e\u0435 \u043c\u0435\u0441\u0442\u043e \u0434\u043b\u044f \u0440\u0430\u0431\u043e\u0442\u044b (\u0432 \u0446\u0435\u043d\u0442\u0440\u0435 \u041a\u0438\u0435\u0432\u0430), \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432\u0430\u044f \u0441\u0442\u0430\u0431\u0438\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u0438 \u043a\u0430\u0440\u044c\u0435\u0440\u043d\u044b\u0439 \u0440\u043e\u0441\u0442, \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u0430\u044f \u0430\u0442\u043c\u043e\u0441\u0444\u0435\u0440\u0430 \u0438 \u0432\u043e\u0437\u043c\u043e\u0436\u043d\u043e\u0441\u0442\u044c \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044c\u0441\u044f.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 185,
+  "fields": {
+    "url": "https://djinni.co/jobs/112790-intermediate-python-developer/",
+    "title": "\nIntermediate Python Developer\n",
+    "company": "\nYana Shkatula,\n      Recruiter at dev-pro.net\n    \n\u00a0\u041a\u0438\u0457\u0432, \u0425\u0430\u0440\u043a\u0456\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Pre-Intermediate\n",
+    "description": "\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 186,
+  "fields": {
+    "url": "https://djinni.co/jobs/112784-strong-middle-senior-python-developer/",
+    "title": "\nStrong Middle\\Senior Python Developer\n",
+    "company": "\nYana Khnykina,\n      HR Director at Mangosoft\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        \u0411\u0435\u0437 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 187,
+  "fields": {
+    "url": "https://djinni.co/jobs/112757-python-developer/",
+    "title": "\nPython Developer\n",
+    "company": "\nKateryna Malik,\n      IT Recruiter at Yael Acceptic\n    \n\u00a0\u041a\u0438\u0457\u0432, \u0425\u0430\u0440\u043a\u0456\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nOur client is developing electro-mechanical devices for dairy farms, pulsators and automatic detachers.\r\nThis product is a leading in industry with advanced fish health monitoring solutions based on video sensors to deliver information about living condition of fish.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 188,
+  "fields": {
+    "url": "https://djinni.co/jobs/112698--2837-senior-full-stack-python-javascript-dev/",
+    "title": "\n#2837 Senior Full-stack Python / Javascript Developer\n",
+    "company": "\nEvgeniy Lototskiy,\n      Founder & CEO at  zhuko.net\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nKey skills: Python / Javascript / ElasticSearch / React / Vue / Kafka / RabbitMQ\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 189,
+  "fields": {
+    "url": "https://djinni.co/jobs/112697--2837-senior-full-stack-python-javascript-dev/",
+    "title": "\n#2837 Senior Full-stack Python / Javascript Developer\n",
+    "company": "\nEvgeniy Lototskiy,\n      Founder & CEO at  zhuko.net\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\nKey skills: Python / Javascript / ElasticSearch / React / Vue / Kafka / RabbitMQ\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 190,
+  "fields": {
+    "url": "https://djinni.co/jobs/112656-python-s-software-engineer/",
+    "title": "\nPython/\u0421++ Software Engineer\n",
+    "company": "\n\u041a\u0441\u0435\u043d\u0438\u044f \u0410\u043b\u0438\u043a\u0438\u043d\u0430,\n      IT Recruiter at VP Team\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        2 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nOur partner is on a mission to make the world\u2019s industrial environments safer with technology solutions, and to drive a paradigm shift in safety from reactive to proactive approaches to reduce the risk of industrial accidents.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 191,
+  "fields": {
+    "url": "https://djinni.co/jobs/94823-python-developer/",
+    "title": "\nPython Developer\n",
+    "company": "\n\u0410\u043d\u043d\u0430 \u0422\u0438\u0442\u0435\u043d\u043a\u043e,\n      Researcher at Evoplay\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n",
+    "description": "\n\u0412\u044b\u0441\u043e\u043a\u043e\u043d\u0430\u0433\u0440\u0443\u0436\u0435\u043d\u043d\u044b\u0439 web-\u043f\u0440\u043e\u0434\u0443\u043a\u0442 \u0438\u0433\u0440\u043e\u0432\u043e\u0439 \u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0438. \u0427\u0430\u0441\u0442\u044c \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u043f\u043e\u0441\u0442\u0440\u043e\u0435\u043d\u0430 \u043d\u0430 \u043c\u0438\u043a\u0440\u043e\u0441\u0435\u0440\u0432\u0438\u0441\u043d\u043e\u0439 \u0430\u0440\u0445\u0438\u0442\u0435\u043a\u0442\u0443\u0440\u0435. \u042f\u0437\u044b\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f: Python 2.7, \u043d\u043e\u0432\u044b\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u044b \u0438 \u043f\u0440\u043e\u0435\u043a\u0442\u044b \u043f\u0438\u0448\u0443\u0442\u0441\u044f \u043d\u0430 Python 3.5. \u0414\u043b\u044f \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u044b\u0445 \u043c\u043e\u0434\u0443\u043b\u0435\u0439 \u0441\u0438\u0441\u0442\u0435\u043c\u044b \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043b\u0438\u0441\u044c -Tornado, Django. \u0412 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u0433\u043e \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0430 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f MongoDB.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 192,
+  "fields": {
+    "url": "https://djinni.co/jobs/86357-python-scraping-expert/",
+    "title": "\nPython Scraping expert\n",
+    "company": "\nOleksandr Sheremeta,\n      Partner at dataforest\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        1 \u0440\u0456\u043a \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Pre-Intermediate\n",
+    "description": "\nLooking for Python Scraping expert to join the DataForest team. We are developing data-driven solutions.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 193,
+  "fields": {
+    "url": "https://djinni.co/jobs/112585-senior-full-stack-python-react-developer/",
+    "title": "\nSenior Full-Stack (Python/React) Developer\n",
+    "company": "\nYana Kovalenko,\n      Recruiter at ITRex-Group\n    \n\u00a0\u041a\u0438\u0457\u0432, remote\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Upper Intermediate\n",
+    "description": "\nWe are looking for an independent and experienced Full-Stack (Python&React) Software Engineers who need a variety in their day-to-day activities to join the high growth and ambitious startup team remotely.\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 194,
+  "fields": {
+    "url": "https://djinni.co/jobs/107034-senior-python-developer-product-from-scratch-/",
+    "title": "\nSenior Python Developer (Product from scratch - SEO-tool)\n",
+    "company": "\nKate Sergienko,\n      Senior IT Recruiter at SocialTech\n    \n\u00a0\u041a\u0438\u0457\u0432\n\n     \n\n      \u00b7\n      \n      \n        3 \u0440\u043e\u043a\u0456\u0432 \u0434\u043e\u0441\u0432\u0456\u0434\u0443\n      \n      \n\n      \n         \u00b7\n         Intermediate\n",
+    "description": "\n- Product IT 140+ (inner start-up)\r\n- Modern stack\r\n- Office in Podil (5 min from T. Shevchenko metro )\r\n- Career growth and professional development\r\n- Free breakfasts and lunches\r\n- Employee wellness program\r\n- Health insurance\n",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 195,
+  "fields": {
+    "url": "https://rabota.ua/company1590638/vacancy7804993",
+    "title": "  Data scientist\n ",
+    "company": "EvoPlay",
+    "description": "  Data scientist\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 196,
+  "fields": {
+    "url": "https://rabota.ua/company7819611/vacancy7857727",
+    "title": "  Senior Analyst / ML\n ",
+    "company": "appflame",
+    "description": "  Senior Analyst / ML\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 197,
+  "fields": {
+    "url": "https://rabota.ua/company1934213/vacancy7908923",
+    "title": "  Middle Python Developer @Weplay! Esports\n ",
+    "company": "WePlay! Esports",
+    "description": "  Middle Python Developer @Weplay! Esports\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 198,
+  "fields": {
+    "url": "https://rabota.ua/company7819611/vacancy7812258",
+    "title": "  Middle/Senior Analyst\n ",
+    "company": "appflame",
+    "description": "  Middle/Senior Analyst\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 199,
+  "fields": {
+    "url": "https://rabota.ua/company847/vacancy7914329",
+    "title": "  Web Developer\n ",
+    "company": "Metro Cash & Carry Ukraine",
+    "description": "  Web Developer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 200,
+  "fields": {
+    "url": "https://rabota.ua/company789104/vacancy7367285",
+    "title": "  \u0410\u043d\u0430\u043b\u0456\u0442\u0438\u043a \u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u0430\u043d\u0430\u043b\u0456\u0437\u0443 \u0442\u0430 \u043c\u043e\u0434\u0435\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0434\u0430\u043d\u0438\u0445 \u0414\u0435\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u0443 \u0440\u0438\u0437\u0438\u043a \u043c\u0435\u043d\u0435\u0434\u0436\u043c...\n ",
+    "company": "\u042e\u043d\u0435\u043a\u0441 \u0411\u0430\u043d\u043a, \u0410\u0422",
+    "description": "  \u0410\u043d\u0430\u043b\u0456\u0442\u0438\u043a \u0423\u043f\u0440\u0430\u0432\u043b\u0456\u043d\u043d\u044f \u0430\u043d\u0430\u043b\u0456\u0437\u0443 \u0442\u0430 \u043c\u043e\u0434\u0435\u043b\u044e\u0432\u0430\u043d\u043d\u044f \u0434\u0430\u043d\u0438\u0445 \u0414\u0435\u043f\u0430\u0440\u0442\u0430\u043c\u0435\u043d\u0442\u0443 \u0440\u0438\u0437\u0438\u043a \u043c\u0435\u043d\u0435\u0434\u0436\u043c...\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 201,
+  "fields": {
+    "url": "https://rabota.ua/company7111339/vacancy7662764",
+    "title": "  Senior Python QA Automation Engineer (Switch Products)\n ",
+    "company": "Ubiquiti Inc",
+    "description": "  Senior Python QA Automation Engineer (Switch Products)\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 202,
+  "fields": {
+    "url": "https://rabota.ua/company7111339/vacancy7814633",
+    "title": "  Middle QA Automation\n ",
+    "company": "Ubiquiti Inc",
+    "description": "  Middle QA Automation\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 203,
+  "fields": {
+    "url": "https://rabota.ua/company2165970/vacancy7912668",
+    "title": "  Full-Stack Python Engineer\n ",
+    "company": "Moneyveo",
+    "description": "  Full-Stack Python Engineer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 204,
+  "fields": {
+    "url": "https://rabota.ua/company2263870/vacancy7929271",
+    "title": "  Middle Python developer\n ",
+    "company": "\u041d\u0415\u041a \u0423\u043a\u0440\u0435\u043d\u0435\u0440\u0433\u043e",
+    "description": "  Middle Python developer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 205,
+  "fields": {
+    "url": "https://rabota.ua/company2263870/vacancy7929266",
+    "title": "  Python Developer\n ",
+    "company": "\u041d\u0415\u041a \u0423\u043a\u0440\u0435\u043d\u0435\u0440\u0433\u043e",
+    "description": "  Python Developer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 206,
+  "fields": {
+    "url": "https://rabota.ua/company1100697/vacancy7936314",
+    "title": "  Python Developer\n ",
+    "company": "Yael Acceptic",
+    "description": "  Python Developer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 207,
+  "fields": {
+    "url": "https://rabota.ua/company9516425/vacancy7941949",
+    "title": "  \u0412\u0447\u0438\u0442\u0435\u043b\u044c \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a\u0438 (\u0441\u0435\u0440\u0435\u0434\u043d\u044f \u0448\u043a\u043e\u043b\u0430)\n ",
+    "company": "NSS, \u041c\u0456\u0436\u043d\u0430\u0440\u043e\u0434\u043d\u0430 \u0448\u043a\u043e\u043b\u0430 ",
+    "description": "  \u0412\u0447\u0438\u0442\u0435\u043b\u044c \u0456\u043d\u0444\u043e\u0440\u043c\u0430\u0442\u0438\u043a\u0438 (\u0441\u0435\u0440\u0435\u0434\u043d\u044f \u0448\u043a\u043e\u043b\u0430)\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 208,
+  "fields": {
+    "url": "https://rabota.ua/company183074/vacancy7936670",
+    "title": "  Data Engineer\n ",
+    "company": "CMK Software Development Company",
+    "description": "  Data Engineer\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.vacancy",
+  "pk": 209,
+  "fields": {
+    "url": "https://rabota.ua/company831808/vacancy7613198",
+    "title": "  \u0413\u043e\u043b\u043e\u0432\u043d\u0438\u0439 \u0444\u0430\u0445\u0456\u0432\u0435\u0446\u044c \u043e\u0446\u0456\u043d\u043a\u0438 \u0442\u0430 \u043c\u043e\u043d\u0456\u0442\u043e\u0440\u0438\u043d\u0433\u0443 \u043c\u0430\u0439\u043d\u043e\u0432\u0438\u0445 \u043f\u0440\u0430\u0432\n ",
+    "company": "\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0438\u0439 \u0431\u0430\u043d\u043a \u0423\u043a\u0440\u0430\u0457\u043d\u0438",
+    "description": "  \u0413\u043e\u043b\u043e\u0432\u043d\u0438\u0439 \u0444\u0430\u0445\u0456\u0432\u0435\u0446\u044c \u043e\u0446\u0456\u043d\u043a\u0438 \u0442\u0430 \u043c\u043e\u043d\u0456\u0442\u043e\u0440\u0438\u043d\u0433\u0443 \u043c\u0430\u0439\u043d\u043e\u0432\u0438\u0445 \u043f\u0440\u0430\u0432\n ",
+    "city": 1,
+    "language": 1,
+    "timestamp": "2020-04-20"
+  }
+},
+{
+  "model": "scraping.error",
+  "pk": 2,
+  "fields": {
+    "timestamp": "2020-04-20",
+    "data": [
+      {
+        "url": "https://djinni.co/jobs/?primary_keyword=Java&location=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0",
+        "title": "The page is empty"
+      },
+      {
+        "url": "https://djinni.co/jobs/?primary_keyword=Python&location=%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2",
+        "title": "The page is empty"
+      }
+    ]
+  }
+},
+{
+  "model": "scraping.error",
+  "pk": 4,
+  "fields": {
+    "timestamp": "2020-04-26",
+    "data": {
+      "user_data": [
+        {
+          "city": "city",
+          "email": "email",
+          "language": "language"
+        },
+        {
+          "city": "city1",
+          "email": "email1",
+          "language": "language1"
+        },
+        {
+          "city": "Oslo",
+          "email": "qw@i.ua",
+          "language": "Scala"
+        }
+      ],
+      "errors": [
+        {
+          "url": "https://djinni.co/jobs/?primary_keyword=Java&location=%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D0%B0",
+          "title": "The page is empty"
+        },
+        {
+          "url": "https://djinni.co/jobs/?primary_keyword=Python&location=%D0%9B%D1%8C%D0%B2%D0%BE%D0%B2",
+          "title": "The page is empty"
+        }
+      ]
+    }
+  }
+},
+{
+  "model": "scraping.url",
+  "pk": 1,
+  "fields": {
+    "city": 1,
+    "language": 1,
+    "url_data": {
+      "work": "https://www.work.ua/ru/jobs-kyiv-python/",
+      "rabota": "https://rabota.ua/zapros/python/%d0%ba%d0%b8%d0%b5%d0%b2",
+      "dou": "https://jobs.dou.ua/vacancies/?city=%D0%9A%D0%B8%D0%B5%D0%B2&category=Python",
+      "djinni": "https://djinni.co/jobs/?location=%D0%9A%D0%B8%D0%B5%D0%B2&primary_keyword=Python"
+    }
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$8c0XlCVSeMQ5$iPPPrCtjd+VCfxLiX4ZLS5KLhTWQlr2gw76wth2ZoMs=",
+    "last_login": "2020-04-18T09:13:09.601Z",
+    "email": "qw@i.ua",
+    "is_active": true,
+    "is_admin": true,
+    "city": 1,
+    "language": 2,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$34YUUbgmn2Z7$SomTMMwp0J5D2UGvUbGK2/JaIXhdVKMEI3+Ji+i0NYE=",
+    "last_login": "2020-04-12T10:04:34.612Z",
+    "email": "as@i.ua",
+    "is_active": true,
+    "is_admin": false,
+    "city": 3,
+    "language": 2,
+    "send_email": false
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$VJu8gFEWGuax$xYiaQy4GPvFwj6E8Y/IF9oLoQDJKyb4CTDnJXwM+gno=",
+    "last_login": "2020-05-02T08:19:55.305Z",
+    "email": "serv.scrap@gmail.com",
+    "is_active": true,
+    "is_admin": true,
+    "city": 1,
+    "language": 1,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$quyPciZykUwD$/RPxjtSzSGIrS7iBPfBRVCemoOMIwcq4bx9J7wUGcsU=",
+    "last_login": "2020-04-26T07:42:07.104Z",
+    "email": "er@i.au",
+    "is_active": true,
+    "is_admin": false,
+    "city": null,
+    "language": null,
+    "send_email": true
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0443\u043d\u043a\u0442\u0430",
+    "content_type": 6,
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0443\u043d\u043a\u0442\u0430",
+    "content_type": 6,
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0443\u043d\u043a\u0442\u0430",
+    "content_type": 6,
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view \u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0443\u043d\u043a\u0442\u0430",
+    "content_type": 6,
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add \u042f\u0437\u044b\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+    "content_type": 7,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change \u042f\u0437\u044b\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+    "content_type": 7,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete \u042f\u0437\u044b\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+    "content_type": 7,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view \u042f\u0437\u044b\u043a \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f",
+    "content_type": 7,
+    "codename": "view_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add \u0412\u0430\u043a\u0430\u043d\u0441\u0438\u044f",
+    "content_type": 8,
+    "codename": "add_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change \u0412\u0430\u043a\u0430\u043d\u0441\u0438\u044f",
+    "content_type": 8,
+    "codename": "change_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete \u0412\u0430\u043a\u0430\u043d\u0441\u0438\u044f",
+    "content_type": 8,
+    "codename": "delete_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view \u0412\u0430\u043a\u0430\u043d\u0441\u0438\u044f",
+    "content_type": 8,
+    "codename": "view_vacancy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add my user",
+    "content_type": 9,
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change my user",
+    "content_type": 9,
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete my user",
+    "content_type": 9,
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view my user",
+    "content_type": 9,
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add error",
+    "content_type": 10,
+    "codename": "add_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change error",
+    "content_type": 10,
+    "codename": "change_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete error",
+    "content_type": 10,
+    "codename": "delete_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view error",
+    "content_type": 10,
+    "codename": "view_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add url",
+    "content_type": 11,
+    "codename": "add_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change url",
+    "content_type": 11,
+    "codename": "change_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete url",
+    "content_type": 11,
+    "codename": "delete_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view url",
+    "content_type": 11,
+    "codename": "view_url"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-03-29T10:13:42.072Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Error object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-03-29T10:13:50.399Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Error object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-04-05T09:27:33.566Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-04-05T09:51:50.997Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "qw@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Language\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-04-05T09:52:37.246Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "as@i.ua",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-04-05T09:53:10.248Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "as@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Language\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-04-05T10:26:26.370Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "as@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-04-05T10:34:54.116Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "as@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-04-11T10:18:51.360Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "120",
+    "object_repr": "  \u0413\u043b\u0430\u0432\u043d\u044b\u0439 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u0438\u0441\u0442 \u043e\u0442\u0434\u0435\u043b\u0430 \u0438\u0441\u043a\u0443\u0441\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0430\n ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-04-11T10:18:51.464Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "119",
+    "object_repr": "  Senior Computer Vision\\ML Engineer\n  ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-04-11T10:18:51.560Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "118",
+    "object_repr": "  Data scientist\n ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-04-11T10:18:51.657Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "117",
+    "object_repr": "  Lead Computer Vision Engineer\n ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-04-11T10:18:51.752Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "116",
+    "object_repr": "  Data Scientist\n ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-04-11T10:18:51.846Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "115",
+    "object_repr": "  Python Django Developer (Junior/Middle/Senior)\n ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-04-11T10:18:51.942Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "114",
+    "object_repr": "  Junior/Middle/Senior Python Developer\n ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.038Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "113",
+    "object_repr": "  DevOps Engineer\n ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.134Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "112",
+    "object_repr": "  Senior BigData Engineer, Financial Software Solutions\n ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.223Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "111",
+    "object_repr": "\nData Engineer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.285Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "110",
+    "object_repr": "\nSenior Python Django developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.348Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "109",
+    "object_repr": "\nSenior Python Developer (healthcare project)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.410Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "108",
+    "object_repr": "\nSoftware Engineer (Python, Kernel)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.474Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "107",
+    "object_repr": "\nPython (Django) developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.544Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "106",
+    "object_repr": "\nFullstack Python/Vue Developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.614Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "105",
+    "object_repr": "\nLead Python Developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.677Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "104",
+    "object_repr": "\nSenior ML Engineer for AI/Embedded project\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.740Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "103",
+    "object_repr": "\nPython Developer (with Pandas library experience)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.810Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "102",
+    "object_repr": "\nSenior Python/GoLang Developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.873Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "101",
+    "object_repr": "\nSenior Python Developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2020-04-11T10:18:52.943Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "100",
+    "object_repr": "\nML\u00a0Engineer with Python knowledge\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.008Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "99",
+    "object_repr": "\nSenior Back-end Engineer (Python+Go)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.075Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "98",
+    "object_repr": "\nSenior Python Engineer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.136Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "97",
+    "object_repr": "\nSenior Python Developer (only back-end)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.198Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "96",
+    "object_repr": "\nFull Stack Web Developer (Python backend)\u00a0\u0432\u00a0\u00a0Respeecher\n$1500\u20135000\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.261Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "95",
+    "object_repr": "\nSenior Python Developer, backend\u00a0\u0432\u00a0\u00a0PLINK.GG\n$2000\u20134000\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.315Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "94",
+    "object_repr": "\nLead Machine Learning Engineer\u00a0\u0432\u00a0\u00a0LabsTECH\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.369Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "93",
+    "object_repr": "\nPaid Internship\u00a0\u2014 Python Software Engineer (Scrapy)\u00a0\u0432\u00a0\u00a0Competera\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.424Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "92",
+    "object_repr": "\nSenior Python Engineer for Networking Solutions\u00a0\u0432\u00a0\u00a0OpenVPN\n\u041a\u0438\u0435\u0432, \u041b\u044c\u0432\u043e\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.487Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "91",
+    "object_repr": "\nPython developer\u00a0\u0432\u00a0\u00a0\u0410\u043b\u044c\u0444\u0430-\u0411\u0430\u043d\u043a \u0423\u043a\u0440\u0430\u0438\u043d\u0430\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.550Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "90",
+    "object_repr": "\nSenior Python QA\u00a0Automation Engineer (Switch Products)\u00a0\u0432\u00a0\u00a0Ubiquiti Inc\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.621Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "89",
+    "object_repr": "\nSenior Full-stack Developer (Python/React)\u00a0\u0432\u00a0\u00a0Go interactive\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.683Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "88",
+    "object_repr": "\nMiddle/Senior Full-Stack Python Engineer\u00a0\u0432\u00a0\u00a0Moneyveo\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.746Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "87",
+    "object_repr": "\nML\u00a0Engineer C++/Python\u00a0\u0432\u00a0\u00a0Ring Ukraine\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.819Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "86",
+    "object_repr": "\nPython (Django) Developer\u00a0\u0432\u00a0\u00a0LITSLINK\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.881Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "85",
+    "object_repr": "\nSenior Back-End Developer (Python)\u00a0\u0432\u00a0\u00a0Go interactive\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2020-04-11T10:18:53.943Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "84",
+    "object_repr": "\nMiddle Python developer\u00a0\u0432\u00a0\u00a0\u041d\u0415\u041a \"\u0423\u043a\u0440\u0435\u043d\u0435\u0440\u0433\u043e\" - NPC Ukrenergo\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.006Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "83",
+    "object_repr": "\nMiddle/Senior Python Software Engineer\u00a0\u0432\u00a0\u00a0PortaOne\n\u041a\u0438\u0435\u0432, \u0421\u0443\u043c\u044b, \u0427\u0435\u0440\u043d\u0438\u0433\u043e\u0432, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.069Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "82",
+    "object_repr": "\nFull-Stack Web Developer (Python backend)\u00a0\u0432\u00a0\u00a0Data Science UA\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.130Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "81",
+    "object_repr": "\nSenior Python developer\u00a0\u0432\u00a0\u00a0ZAKAZ.UA\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.193Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "80",
+    "object_repr": "\nSenior Python Engineer\u00a0\u0432\u00a0\u00a0Devox Software\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.256Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "79",
+    "object_repr": "\nSenior Python Developer, Financial Software Solutions\u00a0\u0432\u00a0\u00a0DataArt\n\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u041b\u044c\u0432\u043e\u0432, \u0414\u043d\u0435\u043f\u0440, \u041e\u0434\u0435\u0441\u0441\u0430, \u0425\u0435\u0440\u0441\u043e\u043d, \u041b\u044e\u0431\u043b\u0438\u043d (\u041f\u043e\u043b\u044c\u0448\u0430), \u0412\u0440\u043e\u0446\u043b\u0430\u0432 (\u041f\u043e\u043b\u044c\u0448\u0430), \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.318Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "78",
+    "object_repr": "\nMiddle Python Developer\u00a0\u0432\u00a0\u00a0WePlay! Esports\n\u041a\u0438\u0435\u0432\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.380Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "77",
+    "object_repr": "\nSenior Computer Vision Engineer\u00a0\u0432\u00a0\u00a0Svitla Systems, Inc.\n\u041a\u0438\u0435\u0432, \u0425\u0430\u0440\u044c\u043a\u043e\u0432, \u041b\u044c\u0432\u043e\u0432, \u0443\u0434\u0430\u043b\u0435\u043d\u043d\u043e\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.441Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "76",
+    "object_repr": "\nPython-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0441\u0442\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.507Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "75",
+    "object_repr": "\nPython-\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u0456\u0441\u0442\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.561Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "74",
+    "object_repr": "\nPython Developer\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2020-04-11T10:18:54.616Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "73",
+    "object_repr": "\nSenior Python Developer (Financial Software Solutions)\n",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2020-04-18T10:12:27.627Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "serv.scrap@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2020-04-18T10:12:47.210Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "serv.scrap@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Language\", \"Is admin\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2020-04-18T10:12:57.700Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "as@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2020-04-18T10:13:04.309Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "qw@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2020-04-18T11:48:12.371Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "qw@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2020-04-18T11:48:31.753Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "as@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\", \"Language\", \"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2020-04-18T12:19:05.805Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "qw@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2020-04-18T12:19:11.290Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "as@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2020-04-18T12:27:51.310Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "qw@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2020-04-18T12:27:57.789Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "as@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2020-04-18T13:22:03.339Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "as@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2020-04-18T13:22:09.689Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "qw@i.ua",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Send email\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2020-04-20T09:12:22.355Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Error object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2020-04-20T09:25:23.808Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "2020-04-20",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2020-04-26T08:20:39.440Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "2020-04-26",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2020-04-26T08:27:42.698Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "2020-04-26",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2020-04-26T08:33:10.576Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "2020-04-26",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2020-04-26T10:07:04.638Z",
+    "user": 6,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "2020-04-26",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Data\"]}}]"
+  }
+}
+]
