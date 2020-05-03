@@ -1,9 +1,9 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
-from django.views.generic import DetailView, ListView, CreateView
+from django.views.generic import DetailView, ListView, CreateView, UpdateView
 
-from .forms import FindForm
+from .forms import FindForm, VForm
 from .models import Vacancy
 
 
@@ -79,6 +79,15 @@ class VList(ListView):
 
 class VCreate(CreateView):
     model = Vacancy
-    fields = '__all__'
+    # fields = '__all__'
+    form_class = VForm
+    template_name = 'scraping/create.html'
+    success_url = reverse_lazy('home')
+
+
+class VUpdate(UpdateView):
+    model = Vacancy
+    # fields = '__all__'
+    form_class = VForm
     template_name = 'scraping/create.html'
     success_url = reverse_lazy('home')

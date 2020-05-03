@@ -3,19 +3,22 @@
 {% block title %} Job Finder {% endblock %}
 
 {% block content %}
-
-  <div class="card my-3">
-      <div class="card-body">
-         <p class="card-text">
-             <form method="post"> {% csrf_token %}
-          {{form.as_p}}
-           <button type="submit" class="btn btn-primary">Сохранить</button>
-      </form>
-         </p>
-
-
-      </div>
+<div class="row">
+    <div class="col-6 mx-auto">
+    <div class="card my-3">
+        <div class="card-body">
+            <p class="card-text">
+                 <form method="post"> {% csrf_token %}
+                {{form.as_p}}
+                <button type="submit" class="btn btn-primary">Сохранить</button>
+                </form>
+            </p>
+        </div>
     </div>
+    </div>
+</div>
+
+
 
 
 
