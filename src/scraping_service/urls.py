@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from scraping.views import (
-    home_view, list_view, v_detail, VDetail, VList, VCreate, VUpdate
+    home_view, list_view, v_detail, VDetail, VList, VCreate, VUpdate, VDelete
 )
 
 urlpatterns = [
@@ -27,5 +27,6 @@ urlpatterns = [
     path('detail/<int:pk>/', VDetail.as_view(), name='detail'),
     path('create/', VCreate.as_view(), name='create'),
     path('update/<int:pk>/', VUpdate.as_view(), name='update'),
+    path('delete/<int:pk>/', VDelete.as_view(), name='delete'),
     path('', home_view, name='home'),
 ]
