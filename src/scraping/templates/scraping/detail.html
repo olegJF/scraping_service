@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %} Job Finder {% endblock %}
+
+{% block content %}
+
+  <div class="card my-3">
+      <h5 class="card-header"><a href="{{ object.url }}">{{ object.title }}</a></h5>
+      <div class="card-body">
+         <p class="card-text">{{ object.description }}</p>
+          <p><strong>{{ object.company }}</strong></p>
+          <p>{{object.city.name }} | {{object.language.name }} |
+              <small>{{object.timestamp|date:"d-m-Y" }}</small></p>
+
+      </div>
+    </div>
+
+
+
+
+{% endblock %}
