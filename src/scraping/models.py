@@ -52,7 +52,7 @@ class Vacancy(models.Model):
     company = models.CharField(max_length=250, verbose_name='Компания')
     description = models.TextField(verbose_name='Описание вакансии')
     city = models.ForeignKey('City', on_delete=models.CASCADE,
-                             verbose_name='Город')
+                             verbose_name='Город', related_name='vacancies')
     language = models.ForeignKey('Language', on_delete=models.CASCADE,
                                  verbose_name='Язык программирования')
     timestamp = models.DateField(auto_now_add=True)
