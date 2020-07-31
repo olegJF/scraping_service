@@ -88,8 +88,10 @@ def contact(request):
                 err.data['user_data'] = data
                 err.save()
             else:
-                data = [{'city': city, 'email': email, 'language': language}]
-                Error(data=f"user_data:{data}").save()
+                data = {'user_data': [
+                    {'city': city, 'email': email, 'language': language}
+                ]}
+                Error(data=data).save()
             messages.success(request, 'Данные отправлены администрации.')
             return redirect('accounts:update')
         else:
