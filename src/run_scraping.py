@@ -42,8 +42,10 @@ def get_urls(_settings):
             tmp = {}
             tmp['city'] = pair[0]
             tmp['language'] = pair[1]
-            tmp['url_data'] = url_dct[pair]
-            urls.append(tmp)
+            url_data = url_dict.get(pair)
+            if url_data:
+                tmp['url_data'] = url_dict.get(pair)
+                urls.append(tmp)
     return urls
 
 
