@@ -35,10 +35,10 @@ def get_settings():
 
 def get_urls(_settings):
     qs = Url.objects.all().values()
-    url_dct = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
+    url_dict = {(q['city_id'], q['language_id']): q['url_data'] for q in qs}
     urls = []
     for pair in _settings:
-        if pair in url_dct:
+        if pair in url_dict:
             tmp = {}
             tmp['city'] = pair[0]
             tmp['language'] = pair[1]
@@ -93,3 +93,5 @@ if errors:
 # h = codecs.open('work.txt', 'w', 'utf-8')
 # h.write(str(jobs))
 # h.close()
+ten_days_ago = dt.date.today() - dt.timedelta(10)
+Vacancy.objects.filter(timestamp__lte=ten_days_ago).delete()
