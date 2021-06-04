@@ -3,7 +3,7 @@ beautifulsoup4==4.8.2
 certifi==2019.11.28
 chardet==3.0.4
 dj-database-url==0.5.0
-Django==3.0.7
+Django==3.1.9
 django-jsonfield==1.4.0
 gunicorn==20.0.4
 idna==2.9
